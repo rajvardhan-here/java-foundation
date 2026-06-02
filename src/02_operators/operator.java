@@ -8,9 +8,11 @@ public class operator {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter no. a");
         int a  = sc.nextInt();
-        System.out.println("enter no b");-
+        System.out.println("enter no b");
         int b = sc.nextInt();
-        System.out.println("ther sum of a and b =" + (a +b) );
-
+        System.out.println("the sum of a and b =" + (a + b) );
+        System.out.println("the sum of a and b =" + (a - b) );
+        System.out.println("the sum of a and b =" + (a * b) );
+        System.out.println("the sum of a and b =" + (a / b) );
     }
 }
