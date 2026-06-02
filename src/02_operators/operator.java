@@ -27,7 +27,7 @@ public class operator {
         int c = 5;
         int d = --a + --a + a++;
         System.out.println(d);  //  b = 10
-        */
+
         // TOPIC NO. 3  IS RELATIONAL  OPERAOTR --
 
         int a =  21;
@@ -36,6 +36,17 @@ public class operator {
         System.out.println( a < b );          // true
         System.out.println(a <=  b );         //true
         System.out.println(a >=  b );          //false
+
+         */
+
+        // TOPIC NO. 4   IS LOGICAL  OPERAOTR --
+
+        System.out.println( (2>4) || (0>1) );  // false
+        System.out.println( (9>7) || (1>3) );  // true\
+
+
+
+
 
 
 
