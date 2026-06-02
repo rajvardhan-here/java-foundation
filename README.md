@@ -1,116 +1,155 @@
-# ☕ java-foundation
+<div align="center">
 
-> **Learning Java from zero — variables to graphs, one commit at a time.**  
-> Daily practice. Consistent growth. No shortcuts.
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=1000&color=F89820&center=true&vCenter=true&width=600&lines=☕+java-foundation;Learning+Java+%2B+DSA;One+commit+at+a+time." alt="Typing SVG" />
 
----
+<br/>
 
-## 🗺️ What This Repo Is
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
 
-This is my personal Java learning journey — structured, consistent, and built in public.  
-I'm going from absolute basics all the way through Data Structures & Algorithms.  
-Every topic I study gets its own folder. Every concept I learn gets its own file.  
-No bulk dumps. Just daily commits.
+<br/>
 
----
+> *"The expert in anything was once a beginner."*
 
-## 📚 Resources I'm Using
-
-| Resource | Type | Link |
-|---|---|---|
-| Sigma 8.0 — Apna College | Course | [apnacollege.in](https://www.apnacollege.in) |
-| CodeWithHarry | YouTube | [youtube.com/@CodeWithHarry](https://www.youtube.com/@CodeWithHarry) |
-| Kunal Kushwaha | YouTube | [youtube.com/@KunalKushwaha](https://www.youtube.com/@KunalKushwaha) |
-| LeetCode | Problem Solving | [leetcode.com](https://leetcode.com) |
-| GeeksForGeeks | Reference | [geeksforgeeks.org](https://www.geeksforgeeks.org) |
-| Stack Overflow | Debugging | [stackoverflow.com](https://stackoverflow.com) |
+</div>
 
 ---
 
-## 🗂️ Folder Structure
+## 🚀 About This Repo
+
+This is my **Java + DSA learning journey** — documented publicly, built consistently.
+
+No bulk uploads. No copy-paste. Every file I write, I understand.  
+Every commit represents a real study session.  
+**From variables → graphs. One step at a time.**
+
+---
+
+## 📚 Where I Learn From
+
+<table>
+<tr>
+<td align="center">🎥</td>
+<td><strong><a href="https://www.youtube.com/@KunalKushwaha">Kunal Kushwaha</a></strong> — DSA + Java</td>
+</tr>
+<tr>
+<td align="center">🎥</td>
+<td><strong><a href="https://www.youtube.com/@CodeWithHarry">CodeWithHarry</a></strong> — Java Tutorials</td>
+</tr>
+<tr>
+<td align="center">🧠</td>
+<td><strong><a href="https://leetcode.com">LeetCode</a></strong> — Practice Problems</td>
+</tr>
+<tr>
+<td align="center">📖</td>
+<td><strong><a href="https://www.geeksforgeeks.org">GeeksForGeeks</a></strong> — Concepts & Reference</td>
+</tr>
+<tr>
+<td align="center">💬</td>
+<td><strong><a href="https://stackoverflow.com">Stack Overflow</a></strong> — When I'm stuck at 2AM</td>
+</tr>
+</table>
+
+---
+
+## 🗂️ Repo Structure
 
 ```
-src/
-├── 01_variables_datatypes/   # Variables, DataTypes, TypeCasting, TypeConversion
-├── 02_operators/             # Arithmetic, Relational, Logical, Bitwise
-├── 03_conditionals/          # if-else, switch-case
-├── 04_loops/                 # for, while, do-while
-├── 05_patterns/              # Pattern printing problems
-├── 06_functions/             # Methods, recursion basics
-├── 07_arrays/                # 1D Arrays
-├── 08_sorting/               # Bubble, Selection, Insertion sort
-├── 09_2d_arrays/             # Matrix problems
-├── 10_strings/               # String manipulation
-├── 11_bit_manipulation/      # Bitwise tricks
-├── 12_oops/                  # Classes, Objects, Inheritance, Polymorphism
-├── 13_recursion/             # Recursion patterns
-├── 14_divide_conquer/        # Merge sort, Binary search
-├── 15_backtracking/          # Backtracking problems
-├── 16_arraylists/            # ArrayList & Collections
-├── 17_linked_lists/          # Singly & Doubly linked lists
-├── 18_stacks/                # Stack implementation & problems
-├── 19_queues/                # Queue & Deque
-├── 20_greedy/                # Greedy algorithms
-├── 21_binary_trees/          # Tree traversals & problems
-├── 22_bst/                   # Binary Search Trees
-├── 23_heaps/                 # Min/Max Heap
-├── 24_hashing/               # HashMap, HashSet
-├── 25_tries/                 # Trie data structure
-└── 26_graphs/                # BFS, DFS, shortest path
+📦 java-foundation
+ └── 📂 src
+      ├── 📁 01_variables_datatypes
+      ├── 📁 02_operators
+      ├── 📁 03_conditionals
+      ├── 📁 04_loops
+      ├── 📁 05_patterns
+      ├── 📁 06_functions
+      ├── 📁 07_arrays
+      ├── 📁 08_sorting
+      ├── 📁 09_2d_arrays
+      ├── 📁 10_strings
+      ├── 📁 11_bit_manipulation
+      ├── 📁 12_oops
+      ├── 📁 13_recursion
+      ├── 📁 14_divide_conquer
+      ├── 📁 15_backtracking
+      ├── 📁 16_arraylists
+      ├── 📁 17_linked_lists
+      ├── 📁 18_stacks
+      ├── 📁 19_queues
+      ├── 📁 20_greedy
+      ├── 📁 21_binary_trees
+      ├── 📁 22_bst
+      ├── 📁 23_heaps
+      ├── 📁 24_hashing
+      ├── 📁 25_tries
+      └── 📁 26_graphs
 ```
 
 ---
 
-## ✅ Progress Tracker
+## 📊 Progress
 
 | # | Topic | Status |
-|---|---|---|
-| 01 | Variables & Data Types | ✅ Done |
-| 02 | Operators | 🔄 In Progress |
-| 03 | Conditional Statements | ⏳ Pending |
-| 04 | Loops | ⏳ Pending |
-| 05 | Patterns | ⏳ Pending |
-| 06 | Functions & Methods | ⏳ Pending |
-| 07 | Arrays | ⏳ Pending |
-| 08 | Sorting Algorithms | ⏳ Pending |
-| 09 | 2D Arrays | ⏳ Pending |
-| 10 | Strings | ⏳ Pending |
-| 11 | Bit Manipulation | ⏳ Pending |
-| 12 | OOPs | ⏳ Pending |
-| 13 | Recursion | ⏳ Pending |
-| 14 | Divide & Conquer | ⏳ Pending |
-| 15 | Backtracking | ⏳ Pending |
-| 16 | ArrayLists | ⏳ Pending |
-| 17 | Linked Lists | ⏳ Pending |
-| 18 | Stacks | ⏳ Pending |
-| 19 | Queues | ⏳ Pending |
-| 20 | Greedy Algorithms | ⏳ Pending |
-| 21 | Binary Trees | ⏳ Pending |
-| 22 | Binary Search Trees | ⏳ Pending |
-| 23 | Heaps | ⏳ Pending |
-| 24 | Hashing | ⏳ Pending |
-| 25 | Tries | ⏳ Pending |
-| 26 | Graphs | ⏳ Pending |
+|:---:|---|:---:|
+| 01 | Variables & Data Types | ✅ |
+| 02 | Operators | 🔄 |
+| 03 | Conditional Statements | ⏳ |
+| 04 | Loops | ⏳ |
+| 05 | Patterns | ⏳ |
+| 06 | Functions & Methods | ⏳ |
+| 07 | Arrays | ⏳ |
+| 08 | Sorting Algorithms | ⏳ |
+| 09 | 2D Arrays | ⏳ |
+| 10 | Strings | ⏳ |
+| 11 | Bit Manipulation | ⏳ |
+| 12 | OOPs | ⏳ |
+| 13 | Recursion | ⏳ |
+| 14 | Divide & Conquer | ⏳ |
+| 15 | Backtracking | ⏳ |
+| 16 | ArrayLists | ⏳ |
+| 17 | Linked Lists | ⏳ |
+| 18 | Stacks | ⏳ |
+| 19 | Queues | ⏳ |
+| 20 | Greedy Algorithms | ⏳ |
+| 21 | Binary Trees | ⏳ |
+| 22 | Binary Search Trees | ⏳ |
+| 23 | Heaps | ⏳ |
+| 24 | Hashing | ⏳ |
+| 25 | Tries | ⏳ |
+| 26 | Graphs | ⏳ |
+
+`✅ Done` · `🔄 In Progress` · `⏳ Pending`
 
 ---
 
-## 🔥 Commit Philosophy
+## ⚡ My Commit Rules
 
-- One topic = one folder  
-- One concept = one file  
-- Every session = at least one commit  
-- No skipping. No shortcuts.
-
----
-
-## 🙋 About Me
-
-**Rajvardhan Singh** — Full Stack Developer & Java learner  
-Building in public. Learning every day.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rajvardhan-blue?style=flat&logo=linkedin)](https://linkedin.com/in/rajvardhann)
-[![GitHub](https://img.shields.io/badge/GitHub-rajvardhan--here-black?style=flat&logo=github)](https://github.com/rajvardhan-here)
+```java
+while (learning) {
+    study(topic);
+    writeCode();
+    commit("meaningful message");
+    push();
+    repeat();
+}
+```
 
 ---
 
-*Started: June 2026 | Goal: Master Java + DSA*
+<div align="center">
+
+### 🙋 Rajvardhan Singh
+
+*Full Stack Developer · Java Learner · Building in public*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rajvardhann)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajvardhan-here)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
+
+<br/>
+
+*Started: June 2026 · Goal: Java → DSA → Interviews 🎯*
+
+</div>
