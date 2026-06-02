@@ -18,7 +18,7 @@ public class operator {
         System.out.println("the sum of a and b =" + (a * b) );
         System.out.println("the sum of a and b =" + (a / b) );
 
-         */
+
          // TOPIC NO. 2 IS UNARY OPERAOTR --
         int a = 3;
         int b = a++ - a++ ;
@@ -27,5 +27,17 @@ public class operator {
         int c = 5;
         int d = --a + --a + a++;
         System.out.println(d);  //  b = 10
+        */
+        // TOPIC NO. 3  IS RELATIONAL  OPERAOTR --
+
+        int a =  21;
+        int b = 25;
+        System.out.println(a> b );             // false
+        System.out.println( a < b );          // true
+        System.out.println(a <=  b );         //true
+        System.out.println(a >=  b );          //false
+
+
+
     }
 }
