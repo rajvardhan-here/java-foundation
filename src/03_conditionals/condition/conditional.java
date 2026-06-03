@@ -26,7 +26,7 @@ public class conditional{
         }else{
             System.out.println("b os largest of 2");
         }
-        */
+        // FIND THE GIVEN NO. IS ODD OR EVEN
 
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
@@ -35,7 +35,20 @@ public class conditional{
             System.out.println("the given no. is evem");
         }else{
             System.out.println("the given no. is odd");  // INPUT = 332 - THE GIVEN NO.  IS EVEN
---        }
+            }
+            */
+
+        //performing if and esle if statement with unique example
+        int cgpa = 5;
+        if  (cgpa >= 8){
+            System.out.println("google me jao  ");
+        }else if(cgpa >  6 && cgpa < 8){
+            System.out.println("tcs  me jao");
+        }
+        else {
+            System.out.println("apne ghar jao");
+        }
+
 
 
 
