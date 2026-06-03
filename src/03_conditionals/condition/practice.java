@@ -51,16 +51,16 @@ public class practice{
                             break;
                             case 7 : System.out.println("SUNDAY");
         }  // input 4 --- THURSDAY
-         */
+
 
         // Question5 : Write a Java program that takes a year from the user and print whether that year is a leap year or not.
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the year ");
         int year = sc.nextInt();
 
-        boolean x = (year % 4) == 0;       // 4 se divisible?
-        boolean y = (year % 100) != 0;     // 100 se divisible NAHI?
-        boolean z = ((year % 100 == 0) && (year % 400 == 0)); // 400 se divisible?
+        boolean x = (year % 4) == 0;                             // 4 se divisible?
+        boolean y = (year % 100) != 0;                           // 100 se divisible nahi ?
+        boolean z = ((year % 100 == 0) && (year % 400 == 0));     // 400 se divisible?
 
         if (x && (y || z) ) {
             System.out.println(year + " is a leap year");
@@ -70,3 +70,5 @@ public class practice{
         }
     }
 }
+
+         */
