@@ -85,12 +85,19 @@ public class conditional{
             System.out.println("C is the largest number ");  // c is the largest number
         }
 
-      */
-
         // TERNARY OPERATOR
         int num = 121212;
         String  value = ( (num % 2) ==0 )? "even" : " odd" ;
         System.out.println(value);  // even
+      */
+
+        // check the given student is pass or fail
+
+        double marks =  81.3;
+
+        String result = ( marks > 33)? "pass": "fail";
+        System.out.println(result); // pass
+
 
 
 
