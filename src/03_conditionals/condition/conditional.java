@@ -1,7 +1,7 @@
 import java.util.*;
 public class conditional{
     public static void main (String args[]){
-     //  if else conditions
+     /*  if else conditions
      Scanner sc = new Scanner(System.in);
 
     System.out.println("enter your age-");
@@ -16,6 +16,16 @@ public class conditional{
     else{
         System.out.println("you are eligible for marriage ");
     }
+
+      */
+        // print largest of 2
+        int a= 5;
+        int b = 10;
+        if (a>=b ){
+            System.out.println("a is largest of 2");
+        }else{
+            System.out.println("b os largest of 2");
+        }
 
 
     }
