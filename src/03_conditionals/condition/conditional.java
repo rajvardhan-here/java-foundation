@@ -48,7 +48,6 @@ public class conditional{
         else {
             System.out.println("apne ghar jao");
         }
-        */
 
         // quesation - income tax calculator
         int income = 320000;
@@ -64,7 +63,26 @@ public class conditional{
             tax = (int)(income *(10.0/1000));
         }
         System.out.println(tax);  // 1600
+        */
 
+        // print the largest of 3
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number for A");
+        int A = sc.nextInt();
+        System.out.println("enter the number for B");
+        int B = sc.nextInt();
+        System.out.println("enter the number for C");
+        int C = sc.nextInt();
+
+        if (A >= B  && A >= C){
+            System.out.println("A is the largest number ");
+        }
+        else if ( B >= C){
+            System.out.println("B  is the largest number ");
+        }
+        else{
+            System.out.println("C is the largest number ");  // c is the largest number
+        }
 
 
 
