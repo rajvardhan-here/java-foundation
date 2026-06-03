@@ -29,10 +29,9 @@ public class practice{
         int a = 63, b = 36;
         boolean x = (a < b) ? true : false;
         int y= (a > b ) ? a : b;        // false  // y= 63
-         */
+
 
         // Question 3:Write a Java program to input week number(1-7) and print day of week name using switch case.
-
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the week number to know the day ");
         int week = sc.nextInt();
@@ -52,9 +51,22 @@ public class practice{
                             break;
                             case 7 : System.out.println("SUNDAY");
         }  // input 4 --- THURSDAY
+         */
 
+        // Question5 : Write a Java program that takes a year from the user and print whether that year is a leap year or not.
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the year ");
+        int year = sc.nextInt();
 
+        boolean x = (year % 4) == 0;       // 4 se divisible?
+        boolean y = (year % 100) != 0;     // 100 se divisible NAHI?
+        boolean z = ((year % 100 == 0) && (year % 400 == 0)); // 400 se divisible?
 
+        if (x && (y || z) ) {
+            System.out.println(year + " is a leap year");
+        } else {
+            System.out.println(year + " is not a leap year");  // 2026 is not a leap year
 
+        }
     }
 }
