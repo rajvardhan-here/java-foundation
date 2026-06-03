@@ -3,7 +3,7 @@ public class conditional{
     public static void main (String args[]){
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("enter your age--");
+    System.out.println("enter your age-");
     int age = sc.nextInt();
 
     if(age >= 5 ){
