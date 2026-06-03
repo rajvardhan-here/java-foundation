@@ -98,7 +98,6 @@ public class conditional{
         String result = marks > 33? "pass": "fail";
         System.out.println(result); // pass
 
-      */
 
         // CREATE A CALCULATOR AND WE USE SWITCH CONDITON IN IT
 
@@ -123,6 +122,8 @@ public class conditional{
                 break;
             case '&' : System.out.println("i am going to be the most successfull");
          }   // this is the working calculator
+      */
+
 
 
 
