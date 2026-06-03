@@ -89,15 +89,40 @@ public class conditional{
         int num = 121212;
         String  value = ( (num % 2) ==0 )? "even" : " odd" ;
         System.out.println(value);  // even
-      */
+
 
         // check the given student is pass or fail
 
         double marks =  81.3;
 
-        String result = ( marks > 33)? "pass": "fail";
+        String result = marks > 33? "pass": "fail";
         System.out.println(result); // pass
 
+      */
+
+        // CREATE A CALCULATOR AND WE USE SWITCH CONDITON IN IT
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter A-");
+        int A =  sc.nextInt();
+        System.out.println("enter B-");
+        int B =  sc.nextInt();
+        System.out.println("enter OPERATOR -");
+        char operands =  sc.next().charAt(0);
+
+        switch (operands){
+            case '+' : System.out.println(A+B);
+                break;
+            case '-' : System.out.println(A-B);
+                break;
+            case '*' : System.out.println(A*B);
+                break;
+            case '/' : System.out.println(A/B);
+                break;
+            case '%' : System.out.println(A%B);
+                break;
+            case '&' : System.out.println("i am going to be the most successfull");
+         }   // this is the working calculator
 
 
 
