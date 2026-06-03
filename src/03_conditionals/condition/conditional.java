@@ -63,7 +63,8 @@ public class conditional{
             tax = (int)(income *(10.0/1000));
         }
         System.out.println(tax);  // 1600
-        */
+
+
 
         // print the largest of 3
         Scanner sc = new Scanner(System.in);
@@ -84,10 +85,12 @@ public class conditional{
             System.out.println("C is the largest number ");  // c is the largest number
         }
 
+      */
 
-
-
-
+        // TERNARY OPERATOR
+        int num = 121212;
+        String  value = ( (num % 2) ==0 )? "even" : " odd" ;
+        System.out.println(value);  // even
 
 
 
