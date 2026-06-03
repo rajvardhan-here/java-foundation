@@ -36,7 +36,7 @@ public class conditional{
         }else{
             System.out.println("the given no. is odd");  // INPUT = 332 - THE GIVEN NO.  IS EVEN
             }
-            */
+
 
         //performing if and esle if statement with unique example
         int cgpa = 5;
@@ -48,6 +48,22 @@ public class conditional{
         else {
             System.out.println("apne ghar jao");
         }
+        */
+
+        // quesation - income tax calculator
+        int income = 320000;
+        int tax;
+
+        if (income < 300000){
+            tax = 0;
+        }
+        else if( income > 300000 && income < 7000000 ){
+            tax = (int)(income *(5.0/1000));
+        }
+        else {
+            tax = (int)(income *(10.0/1000));
+        }
+        System.out.println(tax);  // 1600
 
 
 
