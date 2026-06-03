@@ -17,7 +17,7 @@ public class conditional{
         System.out.println("you are eligible for marriage ");
     }
 
-      */
+
         // print largest of 2
         int a= 5;
         int b = 10;
@@ -26,6 +26,24 @@ public class conditional{
         }else{
             System.out.println("b os largest of 2");
         }
+        */
+
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+
+        if (num % 2==0) {
+            System.out.println("the given no. is evem");
+        }else{
+            System.out.println("the given no. is odd");  // INPUT = 332 - THE GIVEN NO.  IS EVEN
+--        }
+
+
+
+
+
+
+
+
 
 
     }
