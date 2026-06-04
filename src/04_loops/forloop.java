@@ -1,9 +1,10 @@
+/*
 import java.util.*;
 
 public class forloop {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        /*
+
         // studying for loop
         // for ( initialisation; condition ; updation)
         for( int i = 1; i <= 10; i++){
@@ -20,8 +21,6 @@ public class forloop {
             //* * * * * * * = 4
             //* * * * * * * = 5
 
-            */
-
         // reverse the givren number
          int n = 12345;
          int reverse =0;
@@ -29,13 +28,9 @@ public class forloop {
              int digit = n % 10;
              reverse = (reverse * 10) + digit;
              System.out.println(" the reverse number is- " + reverse);  // the reverse number is - 54321
-
-
         }
-
-
-
-
     }
 
 }
+
+         */
