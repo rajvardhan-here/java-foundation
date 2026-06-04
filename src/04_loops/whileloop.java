@@ -1,3 +1,4 @@
+/*
 import java.util.*;
 
 public class whileloop {
@@ -29,7 +30,6 @@ public class whileloop {
         while ( counter <= number ){
             System.out.print(counter+ "  ");
             counter ++;  //0  1  2  3  4  5  6  7  8  9  10  11
-         */
 
 
         // PRINT SUM OF FIRST 5 NATURAL NUMBER
@@ -43,8 +43,7 @@ public class whileloop {
 
         }
 
-
-
-
     }
 }
+
+ */
