@@ -1,8 +1,9 @@
+/*
 import java.util.*;
 public class practice{
     public static void main (String args[]){
 
-        /*
+
         // Question1: Write a Java program to get anumber from the user and print whether it is positive or negative.
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
