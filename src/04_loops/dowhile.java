@@ -16,7 +16,6 @@ public class dowhile {
             }
         }while (true) ;
 
-         */
         // DISPLAY ALL THE NUMBER ENTER BY USER EXPECT MULTIPLE IF 10
 
         do {
@@ -27,5 +26,14 @@ public class dowhile {
             }
             System.out.println("your number was - "+ counter);
         }while (true);
+        */
+
+        // check the given number is prime number or not
+        //System.out.println("enter you number ");
+
+
+
     }
 }
+
+
