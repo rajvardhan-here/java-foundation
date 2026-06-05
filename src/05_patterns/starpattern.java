@@ -29,7 +29,6 @@ public class starpattern {
             }
             System.out.println();
         }
-        */
         //*****
         //****
         //***
@@ -37,7 +36,7 @@ public class starpattern {
         //*
 
         // PRINT HALF PYRAMID PATTERN
-        int n=4;
+        char n =4;
         for (int line = 1 ; line <= n; line++){
             for (int num = 1 ; num<=line  ; num++){
                 System.out.print(num);
@@ -48,6 +47,27 @@ public class starpattern {
         //12
         //123
         //1234
+
+        */
+
+        // PRINT CHARACTER PATTERN-
+
+        int n =6;
+        char ch = 'A';
+        for (int line = 1 ; line <= n; line++){
+            // inner loop
+            for ( int chars= 1  ; chars <=line  ; chars++){
+                System.out.print(ch);
+                ch++;
+            }
+            System.out.println( );
+        }
+        //A
+        //BC
+        //DEF
+        //GHIJ
+        //KLMNO
+        //PQRSTU
 
 
 
