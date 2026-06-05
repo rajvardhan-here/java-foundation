@@ -9,7 +9,6 @@ public class practiceloop {
             System.out.println("hello");
             i += 2;
         }       // 2 times
-        */
 
         //quesation 2 --wap that    reads set of integer and then print sum of the even or odd integer
 
@@ -34,6 +33,19 @@ public class practiceloop {
         }while (true);
 
             System.out.println("sum of even number is = " + evensum);
-            System.out.println("sum of odd number is = " + oddsum); //sum of even number is = 158   sum of odd number is = 13143
+            System.out.println("sum of odd number is = " + oddsum);
+            //sum of even number is = 158   sum of odd number is = 13143
+        */
+
+        //quesation 3  -  find the reverse  of the given number
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number to reverse --");
+        int n = sc.nextInt();
+        while (n >0) {
+            int i = n % 10;
+            System.out.print(i);
+            n = n / 10;          // input - 54321     // 12345
+        }
     }
 }
