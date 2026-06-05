@@ -59,7 +59,6 @@ public class practiceloop {
             System.out.print(rev + " ");
             n = n/10;            // 11012007  ---->   // 70021011
         }
-         */
 
         // quesqation 4 ---    keep entering no. till user enters multiple  of 10
         Scanner sc= new Scanner(System.in);
@@ -74,6 +73,30 @@ public class practiceloop {
         }while (true);
 
         System.out.println( " this is the multiple of 10 ");
+
+        //  quesation 5 - take input from user and fint that the number is  even and odd
+        do{
+            Scanner sc = new Scanner(System.in);
+            System.out.println("enter you number -- ");
+            int n = sc.nextInt();
+            if (n % 2==0){
+                System.out.println(n+ "  is even number ");
+            }else {
+                System.out.println(n + " is odd number ");
+            }
+        }while (true);
+
+*/
+        // quesation 6 -  print a table using for loop
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println(" enter the number of the table you want to print -- ");
+        int n = sc.nextInt();
+        for ( int i = 1 ; i <= 10 ; i++){
+
+            System.out.println( n +  "*" + i   +"="  + (n*i));
+        }
+
 
     }
 }
