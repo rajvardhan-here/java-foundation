@@ -3,6 +3,8 @@ import java.util.*;
 
 public class forloop {
     public static void main(String args[]){
+
+    }
         Scanner sc = new Scanner(System.in);
 
         // studying for loop
@@ -29,8 +31,12 @@ public class forloop {
              reverse = (reverse * 10) + digit;
              System.out.println(" the reverse number is- " + reverse);  // the reverse number is - 54321
         }
-    }
 
+          for (int i = 0; i <=5; i++ ){
+              System.out.println(i);
+              if (i == 3) break;
+        }
+    }
 }
 
-         */
+     */

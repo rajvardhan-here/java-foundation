@@ -36,7 +36,7 @@ public class practiceloop {
             System.out.println("sum of odd number is = " + oddsum);
             //sum of even number is = 158   sum of odd number is = 13143
 
-        //quesation 3  -  find the reverse  of the given number
+        //quesation 3  -  find the reverse  of the number
 
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number to reverse --");
@@ -47,22 +47,33 @@ public class practiceloop {
             n = n / 10;          // input - 54321     // 12345
         }
 
-         */
 
-
+        // quesation 4 -- reverse the given number
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your number");
         int n = sc.nextInt();
         int rev =0;
-        int i;
         while (n > 0){
-            i = n% 10;
+            int i = n% 10;
             rev = (rev*10) + i;
             System.out.print(rev + " ");
             n = n/10;            // 11012007  ---->   // 70021011
         }
+         */
 
+        // quesqation 4 ---    keep entering no. till user enters multiple  of 10
+        Scanner sc= new Scanner(System.in);
+        do{
+            System.out.println("enter the number ");
+            int n = sc.nextInt();
+            if( n % 10 ==0) {
+                break;
+            }
+            System.out.println(n);
+            n++;
+        }while (true);
 
+        System.out.println( " this is the multiple of 10 ");
 
     }
 }
