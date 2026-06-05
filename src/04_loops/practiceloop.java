@@ -35,7 +35,6 @@ public class practiceloop {
             System.out.println("sum of even number is = " + evensum);
             System.out.println("sum of odd number is = " + oddsum);
             //sum of even number is = 158   sum of odd number is = 13143
-        */
 
         //quesation 3  -  find the reverse  of the given number
 
@@ -47,5 +46,23 @@ public class practiceloop {
             System.out.print(i);
             n = n / 10;          // input - 54321     // 12345
         }
+
+         */
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your number");
+        int n = sc.nextInt();
+        int rev =0;
+        int i;
+        while (n > 0){
+            i = n% 10;
+            rev = (rev*10) + i;
+            System.out.print(rev + " ");
+            n = n/10;            // 11012007  ---->   // 70021011
+        }
+
+
+
     }
 }
