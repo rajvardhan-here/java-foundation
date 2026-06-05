@@ -59,7 +59,6 @@ public class practiceloop {
             System.out.print(rev + " ");
             n = n/10;            // 11012007  ---->   // 70021011
         }
-        */
 
         // quesqation 4 ---    keep entering no. till user enters multiple  of 10
         Scanner sc= new Scanner(System.in);
@@ -75,7 +74,7 @@ public class practiceloop {
 
         System.out.println( " this is the multiple of 10 ");
 
-        /* //  quesation 5 - take input from user and fint that the number is  even and odd
+        //  quesation 5 - take input from user and fint that the number is  even and odd
         do{
             Scanner sc = new Scanner(System.in);
             System.out.println("enter you number -- ");
@@ -99,6 +98,14 @@ public class practiceloop {
 
          */
 
-
+        // find the factorial of the given numhber
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your number");
+        int n = sc.nextInt();
+        int factorial = 1;
+        for(int i = 1 ; i <=n; i++) {
+            factorial = factorial * n;
+            System.out.println("factorial is -  "  + factorial);
+        }
     }
 }
