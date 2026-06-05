@@ -1,9 +1,9 @@
+/*
 import java.util.*;
 
 public class starpattern {
     public static void main(String args[]){
 
-        /*
         //"PRINT STAR PATTERN")
         for ( int line = 1; line <= 5 ; line ++){
             for( int star = 1; star <= line ; star++){
@@ -48,8 +48,6 @@ public class starpattern {
         //123
         //1234
 
-        */
-
         // PRINT CHARACTER PATTERN-
 
         int n =6;
@@ -68,9 +66,7 @@ public class starpattern {
         //GHIJ
         //KLMNO
         //PQRSTU
-
-
-
     }
 
 }
+*/
