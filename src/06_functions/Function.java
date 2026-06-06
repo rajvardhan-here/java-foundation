@@ -15,8 +15,6 @@ public class Function {
     }
     public static void main(String[] args){
         helloraj();
-        */
-
 
 
         // parameter and  arguments  in function
@@ -32,6 +30,25 @@ public class Function {
         System.out.println("enter number b :");
         int b = sc.nextInt();
         calculatesum(a,b);
+     */
+
+
+    // Ek method banao printTable(int n) jo kisi bhi number ki table print kare. main se 5 ki table print karao.
+    public static void printTAble(int n ){
+        for (int i = 1 ; i <= 10 ; i++ ){
+            System.out.println( n+  "*" +i+ "=" +(i*n) );
+        }
+    }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        printTAble(n);
+
+
+
+
+
+
     }
 
 }
