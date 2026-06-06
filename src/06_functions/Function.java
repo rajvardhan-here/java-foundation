@@ -46,12 +46,11 @@ public class Function {
         int n = sc.nextInt();
         printTAble(n);
     }
-    */
+
     // --------------------------------------------------------------------------------------------------------
 
 
     // SWA[ING OF TWO NUMBER --- CALL BY VALUE
-
     public static int swap (int a, int b){
         int temp = a;
         a=b;
@@ -66,5 +65,36 @@ public class Function {
         int b= 21;
         swap(a,b);
     }
+    */
+
+    //--------------------------------------------------------------------------------------------------------
+
+
+    //  product of two numbers using  function
+
+    public static int multi(int a, int b){
+        int product = a*b;
+        product  = a+b;
+        return product;
+    }
+    public static void main(String args []){
+        int a = 31;
+        int b = 2;
+        int product = multi(a,b);
+        System.out.println("a * b = " +product);
+        product = multi(10,20);
+        System.out.println("a * b = " +product);
+        product = multi(5,2);
+        System.out.println("a + b = " +product);
+    }
+
+
+
+
+
+
+
+
+
 
 }
