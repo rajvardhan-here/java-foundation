@@ -20,8 +20,8 @@ public class Function {
 
 
         // parameter and  arguments  in function
-    public static void calculatesum( int a , int b){
-            int sum = a+b;
+    public static void calculatesum( int num1, int num2){
+            int sum = num1 + num2 ;
         System.out.println("sum is : " + sum);
             return ;
         }
