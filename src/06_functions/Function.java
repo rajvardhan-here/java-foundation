@@ -16,6 +16,7 @@ public class Function {
     public static void main(String[] args){
         helloraj();
 
+    // -------------------------------------------------------------------------------------------
 
         // parameter and  arguments  in function
     public static void calculatesum( int num1, int num2){
@@ -30,7 +31,8 @@ public class Function {
         System.out.println("enter number b :");
         int b = sc.nextInt();
         calculatesum(a,b);
-     */
+
+     // -----------------------------------------------------------------------------------------------------
 
 
     // Ek method banao printTable(int n) jo kisi bhi number ki table print kare. main se 5 ki table print karao.
@@ -43,12 +45,26 @@ public class Function {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         printTAble(n);
+    }
+    */
+    // --------------------------------------------------------------------------------------------------------
 
 
+    // SWA[ING OF TWO NUMBER --- CALL BY VALUE
 
+    public static int swap (int a, int b){
+        int temp = a;
+        a=b;
+        b= temp;
 
-
-
+        System.out.println("value of a =" +a);
+        System.out.println("value of b = "  +b);
+        return temp;
+    }
+    public static void main (String args[]){
+        int a = 10;
+        int b= 21;
+        swap(a,b);
     }
 
 }
