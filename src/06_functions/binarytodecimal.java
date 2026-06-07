@@ -4,7 +4,7 @@ public class binarytodecimal {
 
 
     //  BINARY TO DECIMAL CONVERSION OF THE GIVEN NUMBER
-    public static void binarynum(int n){
+   /* public static void binarynum(int n){
         int newnum =  n;
         int pow = 0;
         int dec = 0;
@@ -17,10 +17,28 @@ public class binarytodecimal {
         System.out.println("decimal of " +newnum+ " is " +dec);
     }
 
-    public static void main(String args[]){
+    */
+
+    // DECIMAL TO BINARY CONVERSION
+
+    public static void decnum(int n){
+        int newnum =  n;
+        int pow = 0;
+        int dec = 0;
+        while(n > 0){
+            int rem = n % 2;
+            dec = dec + (rem *   (int) Math.pow(10,pow) );
+            pow++;
+            n  = n / 2;
+        }
+        System.out.println("binay of " +newnum+ " is " +dec);       // binay of 8 is 1000
+    }
+
+
+        public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your number --: ");
         int n = sc.nextInt();
-        binarynum(n);                         // decimal of 101 is 5
+        decnum(n);
     }
-}
+ }
