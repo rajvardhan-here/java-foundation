@@ -84,26 +84,56 @@ public class Function {
         product = multi(5,2);
         System.out.println("a + b = " +product);
     }
-     */
-
       //--------------------------------------------------------------------------------------------------------
-
-
+*/
     // FACTORIAL OF THE GIVEN NUMBER
-    public static int f(int n){
-        int factorial = 1;
+    public static int factorial(int n){
+        int fact = 1;
             for (int i = 1 ; i <= n ; i++){
-                factorial = factorial*i;
+                fact = fact*i;
             }
-        return factorial;
+        return fact;
     }
+    /*
 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your number --:");
         int n = sc.nextInt();
-        System.out.println(f(n));
+        int fact = factorial(n);
+        System.out.println(fact);           // --> 5 ---> 120
+    }
+    */
+
+    // ----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+    //FIND BINOMIAL COEFFICIENT
+    public static int raj(int n , int r ){
+        int fact_1 = factorial(n);
+        int fact_2  = factorial(r);
+        int fact_3 = factorial(n-r);
+
+        int bino = fact_1 / (fact_2 * fact_3);
+        return bino;
 
     }
+    public static void main(String args []){
+
+        System.out.println (raj(5,2));             // 10
+    }
+
+    // ---------------------------------------------------------------------------------------------------------------------------------
+
+
+          // OVERLOADING USING PARAMETERS
+
+
+
+
+
+
+
+
 
 }
