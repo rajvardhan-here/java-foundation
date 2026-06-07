@@ -120,7 +120,6 @@ public class Function {
 
         System.out.println (raj(5,2));             // 10
     }
-     */
 
     // ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -136,6 +135,29 @@ public class Function {
         System.out.println(multiply(5,3));                    //15
         System.out.println(multiply(2,4,3));               // 24
     }
+
+     */
+
+
+    // -----------------------------------------------------------------------------------------------------------------------------
+
+    // function overloading using datatype
+
+    public static int addition(int a , int b ){
+        return a+b ;
+    }
+    public static double addition(double a , double b){
+        return  a + b;
+    }
+    public static void main (String args[]){
+        System.out.println(addition(5,3));                    //8
+        System.out.println(addition(2.343f,4.234f));               // 6.577000141143799
+    }
+
+
+
+
+
 
 
 
