@@ -1,10 +1,10 @@
+/*
 import java.security.PublicKey;
 import java.util.*;
 
 public class Function {
 
 
-    /*
     // "STUDYING FUNCTION FROM SCRATCH - 7 JUNE"
     public static void helloraj(){
         int i = 24;
@@ -136,10 +136,7 @@ public class Function {
         System.out.println(multiply(2,4,3));               // 24
     }
 
-     */
-
-
-    // -----------------------------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------------------------
 
     // function overloading using datatype
 
@@ -154,17 +151,7 @@ public class Function {
         System.out.println(addition(2.343f,4.234f));               // 6.577000141143799
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ // -----------------------------------------------------------------------------------------------------------------------------
 }
+
+ */
