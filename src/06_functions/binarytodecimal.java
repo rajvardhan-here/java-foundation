@@ -41,6 +41,5 @@ public class binarytodecimal {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your number --: ");
         int n = sc.nextInt();
-        decnum  (n);
     }
  }
