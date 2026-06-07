@@ -65,13 +65,10 @@ public class Function {
         int b= 21;
         swap(a,b);
     }
-    */
 
     //--------------------------------------------------------------------------------------------------------
 
-
     //  product of two numbers using  function
-
     public static int multi(int a, int b){
         int product = a*b;
         product  = a+b;
@@ -87,14 +84,26 @@ public class Function {
         product = multi(5,2);
         System.out.println("a + b = " +product);
     }
+     */
+
+      //--------------------------------------------------------------------------------------------------------
 
 
+    // FACTORIAL OF THE GIVEN NUMBER
+    public static int f(int n){
+        int factorial = 1;
+            for (int i = 1 ; i <= n ; i++){
+                factorial = factorial*i;
+            }
+        return factorial;
+    }
 
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your number --:");
+        int n = sc.nextInt();
+        System.out.println(f(n));
 
-
-
-
-
-
+    }
 
 }
