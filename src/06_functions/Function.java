@@ -1,3 +1,4 @@
+import java.security.PublicKey;
 import java.util.*;
 
 public class Function {
@@ -85,7 +86,7 @@ public class Function {
         System.out.println("a + b = " +product);
     }
       //--------------------------------------------------------------------------------------------------------
-*/
+
     // FACTORIAL OF THE GIVEN NUMBER
     public static int factorial(int n){
         int fact = 1;
@@ -94,7 +95,6 @@ public class Function {
             }
         return fact;
     }
-    /*
 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -103,10 +103,8 @@ public class Function {
         int fact = factorial(n);
         System.out.println(fact);           // --> 5 ---> 120
     }
-    */
 
     // ----------------------------------------------------------------------------------------------------------------------------------------------
-
 
     //FIND BINOMIAL COEFFICIENT
     public static int raj(int n , int r ){
@@ -122,11 +120,22 @@ public class Function {
 
         System.out.println (raj(5,2));             // 10
     }
+     */
 
     // ---------------------------------------------------------------------------------------------------------------------------------
 
 
           // OVERLOADING USING PARAMETERS
+    public static int multiply(int a , int b ){
+        return a * b ;
+    }
+    public static int multiply(int a , int b, int c){
+        return a*b*c;
+    }
+    public static void main (String args[]){
+        System.out.println(multiply(5,3));                    //15
+        System.out.println(multiply(2,4,3));               // 24
+    }
 
 
 
