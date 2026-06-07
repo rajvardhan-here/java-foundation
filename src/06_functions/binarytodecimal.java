@@ -19,9 +19,11 @@ public class binarytodecimal {
 
     */
 
-    // DECIMAL TO BINARY CONVERSION
+    // -------------------------------------------------------------------------------------------------
 
-    public static void decnum(int n){
+    // DECIMAL TO BINARY CONVERSION
+    /*
+      public static void decnum(int n){
         int newnum =  n;
         int pow = 0;
         int dec = 0;
@@ -33,12 +35,12 @@ public class binarytodecimal {
         }
         System.out.println("binay of " +newnum+ " is " +dec);       // binay of 8 is 1000
     }
-
+     */
 
         public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your number --: ");
         int n = sc.nextInt();
-        decnum(n);
+        decnum  (n);
     }
  }
