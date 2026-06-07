@@ -1,3 +1,4 @@
+/*
 import java.util.*;
 
 public class binarytodecimal {
@@ -35,7 +36,6 @@ public class binarytodecimal {
         }
         System.out.println("binay of " +newnum+ " is " +dec);       // binay of 8 is 1000
     }
-     */
 
         public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -43,3 +43,5 @@ public class binarytodecimal {
         int n = sc.nextInt();
     }
  }
+
+     */
