@@ -59,7 +59,7 @@ public class Session1 {
 
 
         // STARTING CONDITIONAL STATEMENT
-
+        /*
         // LARGEST OF TWO NUMBER
         Scanner sc = new Scanner(System.in);
         System.out.println("enter number one = " );      //2
@@ -72,6 +72,24 @@ public class Session1 {
         }else{
             System.out.println(num2+ " is largest");             // 4 is largest
         }
+         */
+
+        // even or odd
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter number one = " );      //2
+        int num1 = sc.nextInt();
+
+        if (num1 % 2==0 ){
+            System.out.println(num1 + " is even ");
+        }else{
+            System.out.println(num1+ " is odd");             // 4 is largest
+        }
+
+
+
+
+
+
 
 
 
