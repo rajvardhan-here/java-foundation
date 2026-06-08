@@ -22,7 +22,7 @@ public class Session1 {
 
 
         //Question3: Enter cost of 3 items from the user (using float data type)-a pencil , a pen and an eraser
-
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println(" cost of pen = ");
         float pen = sc.nextFloat();
@@ -36,13 +36,13 @@ public class Session1 {
 
         float tax = total * 18f/100;
         System.out.println("total tax = " +tax);     // total tax = 4.5
+         */
 
 
-
-
-
-
-
+        // area of circle
+        float rad = 5.3f;
+        float area = 3.14f* rad * rad;
+        System.out.println("area of circle is  -: " +area);   //area of circle is  -: 88.202614
 
 
     }
