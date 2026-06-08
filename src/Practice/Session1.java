@@ -21,6 +21,28 @@ public class Session1 {
         */
 
 
+        //Question3: Enter cost of 3 items from the user (using float data type)-a pencil , a pen and an eraser
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" cost of pen = ");
+        float pen = sc.nextFloat();
+        System.out.println(" cost of eraser = ");
+        float eraser = sc.nextFloat();
+        System.out.println(" cost of pensil = ");
+        float pensil = sc.nextFloat();
+
+        float total = (pen + pensil + eraser);
+        System.out.println("total cost = " + (total));   //total cost = 25.0
+
+        float tax = total * 18f/100;
+        System.out.println("total tax = " +tax);     // total tax = 4.5
+
+
+
+
+
+
+
 
 
     }
