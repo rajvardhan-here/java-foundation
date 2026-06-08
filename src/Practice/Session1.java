@@ -74,16 +74,40 @@ public class Session1 {
         }
          */
 
+
         // even or odd
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println("enter number one = " );      //2
         int num1 = sc.nextInt();
 
-        if (num1 % 2==0 ){
+            if (num1 % 2==0 ){
             System.out.println(num1 + " is even ");
         }else{
-            System.out.println(num1+ " is odd");             // 4 is largest
+            System.out.println(num1+ " is odd");             // 2 is eve
         }
+        */
+
+        // income tax calculator
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER YOUR YEARLY NINCOME = ");
+        int income = sc.nextInt();
+        int tax;
+
+        if ( income < 500000 ){
+            tax = 0;
+        }
+        else if(income > 500000 && income < 1000000 ){
+            tax = (int)(income * 0.2f);
+        }
+        else{
+            tax = (int)(income * 0.3f);
+        }
+
+
+        System.out.println("total tax is  = " +tax);
+
+
 
 
 
