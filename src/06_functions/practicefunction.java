@@ -17,7 +17,12 @@ public class practicefunction {
     // Also write a program to test your method.
 
     public static boolean isEven(int n){
-            return (n%2==0);
+            if (n%2==0){
+                return true;
+            }
+            else{
+                return false;
+            }
     }
     public static void main (String args[]){
         Scanner sc = new Scanner(System.in);
