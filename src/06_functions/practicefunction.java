@@ -1,4 +1,4 @@
-import java.util.*;
+/*import java.util.*;
 
 public class practicefunction {
 
@@ -67,7 +67,6 @@ public class practicefunction {
         }
 
     }
-    */
        // input as integer and find the sum
     public static int sumof(int n){
         int sum = 0;
@@ -85,3 +84,4 @@ public class practicefunction {
         System.out.println("the sum is " +sumof(number));
     }
 }
+*/
