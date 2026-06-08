@@ -36,7 +36,9 @@ public class practicefunction {
     // -------------------------------------------------------------------------------------------------------------------
 
 
-      //  Write a Java program to check if a number is a palindrome in Java
+    /*
+
+   //  Write a Java program to check if a number is a palindrome in Java
 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -49,7 +51,6 @@ public class practicefunction {
             System.out.println(plaindrone+ " is not plaindrome");
         }
     }
-
     public static boolean isPalindrome(int number){
         int plaindrome = number;
         int reverse = 0;
@@ -58,7 +59,6 @@ public class practicefunction {
             int reminder = plaindrome % 10;
             reverse = reverse * 10 + reminder;
             plaindrome =  plaindrome/10;
-
         }
         if (reverse == number ){
             return true;
@@ -67,21 +67,21 @@ public class practicefunction {
         }
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    */
+       // input as integer and find the sum
+    public static int sumof(int n){
+        int sum = 0;
+        while(n > 0){
+            int lstd = n % 10;
+            sum += lstd;
+            n = n /10;
+        }
+        return sum;
+    }
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("input an integer  -:");
+        int number = sc.nextInt();
+        System.out.println("the sum is " +sumof(number));
+    }
 }
