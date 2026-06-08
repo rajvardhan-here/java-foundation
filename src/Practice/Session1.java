@@ -48,12 +48,30 @@ public class Session1 {
 
 
         //TYPE CONVERSION
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println(" cost of pen = ");      //22
         float pen = sc.nextInt();
         System.out.println(" cost of pen = ");      //11
         float pencil = sc.nextInt();
         System.out.println(pen+pencil);         //----   33.0
+         */
+
+
+        // STARTING CONDITIONAL STATEMENT
+
+        // LARGEST OF TWO NUMBER
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter number one = " );      //2
+        int num1 = sc.nextInt();
+        System.out.println("enter number two = " );      //4
+        int num2 = sc.nextInt();
+
+        if (num1 > num2 ){
+            System.out.println(num1 + " is largest ");
+        }else{
+            System.out.println(num2+ " is largest");             // 4 is largest
+        }
 
 
 
