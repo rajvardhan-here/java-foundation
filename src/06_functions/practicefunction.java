@@ -9,10 +9,20 @@ public class practicefunction {
         System.out.println(aver);
             return aver;
     }
-    public static void main (String args[]){
-        average(12,21,44);
-    }
 
     // -------------------------------------------------------------------------------------------------------------------
 
+    // Question2 : Write a method named is Even that accepts an int argument.
+    // The method should return true if the argument iseven,or false otherwise.
+    // Also write a program to test your method.
+
+    public static boolean isEven(int n){
+            return (n%2==0);
+    }
+    public static void main (String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your number -:");
+        int n = sc.nextInt();
+        System.out.println(isEven(n));                   // 12  ---  true
+    }
 }
