@@ -40,9 +40,21 @@ public class Session1 {
 
 
         // area of circle
+        /*
         float rad = 5.3f;
         float area = 3.14f* rad * rad;
         System.out.println("area of circle is  -: " +area);   //area of circle is  -: 88.202614
+         */
+
+
+        //TYPE CONVERSION
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" cost of pen = ");      //22
+        float pen = sc.nextInt();
+        System.out.println(" cost of pen = ");      //11
+        float pencil = sc.nextInt();
+        System.out.println(pen+pencil);         //----   33.0
+
 
 
     }
