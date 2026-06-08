@@ -12,7 +12,8 @@ public class practicefunction {
 
     // -------------------------------------------------------------------------------------------------------------------
 
-    // Question2 : Write a method named is Even that accepts an int argument.
+    /*
+    //Question2 : Write a method named is Even that accepts an int argument.
     // The method should return true if the argument iseven,or false otherwise.
     // Also write a program to test your method.
 
@@ -30,4 +31,57 @@ public class practicefunction {
         int n = sc.nextInt();
         System.out.println(isEven(n));                   // 12  ---  true
     }
+    */
+
+    // -------------------------------------------------------------------------------------------------------------------
+
+
+      //  Write a Java program to check if a number is a palindrome in Java
+
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your number -:");
+        int plaindrone = sc.nextInt();
+        if(isPalindrome(plaindrone)){
+            System.out.println(plaindrone+ " is plaindrome");
+        }
+        else{
+            System.out.println(plaindrone+ " is not plaindrome");
+        }
+    }
+
+    public static boolean isPalindrome(int number){
+        int plaindrome = number;
+        int reverse = 0;
+
+        while( plaindrome >0){
+            int reminder = plaindrome % 10;
+            reverse = reverse * 10 + reminder;
+            plaindrome =  plaindrome/10;
+
+        }
+        if (reverse == number ){
+            return true;
+        }else{
+            return false;
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
