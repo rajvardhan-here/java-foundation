@@ -185,12 +185,26 @@ public class Session1 {
 
         //-----------------------------------------------------------------------------------------------------------------------------------------------
 
-        // STARTIING LOOPS FOR PRACTICE
+
+
+                                                        // STARTIING LOOPS FOR PRACTICE
 
         // PRINT NUMBER FROM 1 TO 10 USING WHILE LOOP
+        /*
         int i = 1;
         while (i <= 10){
             System.out.println(i);
+            i++;
+        }
+         */
+
+        // print number from one to n
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" enter your number");     //4
+        int n = sc.nextInt();
+        int i = 1;
+        while (i <= n){
+            System.out.print(i+ " ");          // 1 2 3 4
             i++;
         }
 
