@@ -250,7 +250,9 @@ public class Session1 {
 
 
 
+
         // PRINT REVERSE OF THE GIVEN NUMBER
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your number ");        //4321
         int n = sc.nextInt();
@@ -261,5 +263,17 @@ public class Session1 {
             System.out.print(i);           //1234
             n = n/ 10;
         }
+        */
+
+        // factorial of the number
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your number ");       // 171
+        double n = sc.nextInt();
+        double fact = 1;
+
+        for (double i = 1 ; i <= n ; i ++){
+             fact = fact * i;
+        }
+        System.out.print(fact+ " ");               // infinty
     }
 }
