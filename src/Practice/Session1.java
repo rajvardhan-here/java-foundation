@@ -280,13 +280,17 @@ public class Session1 {
 
 
         // PRINT MULTIPLICATION TABLE
+        /*
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter your number for the table = ");       // 171
+        System.out.println("enter your number for the table = ");       // 5
         int n = sc.nextInt();
 
         for (int  i = 1 ; i <= 10 ; i ++){
             System.out.println(n + " * " + i+ " = " + (i*n));
         }
+        */
+
+
 
 
     }
