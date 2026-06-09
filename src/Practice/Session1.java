@@ -89,6 +89,7 @@ public class Session1 {
         */
 
         // income tax calculator
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER YOUR YEARLY NINCOME = ");
         int income = sc.nextInt();
@@ -103,11 +104,20 @@ public class Session1 {
         else{
             tax = (int)(income * 0.3f);
         }
-
-
         System.out.println("total tax is  = " +tax);
+         */
 
 
+        // given number is  positive or negative
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter number one = " );      //2
+        int num1 = sc.nextInt();
+
+        if (num1 > 0 ){
+            System.out.println(num1 + " is positive ");
+        }else{
+            System.out.println(num1+ " is negative");             // 2 is positive
+        }
 
 
 
