@@ -199,6 +199,7 @@ public class Session1 {
          */
 
         // print number from one to n
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println(" enter your number");     //4
         int n = sc.nextInt();
@@ -207,9 +208,19 @@ public class Session1 {
             System.out.print(i+ " ");          // 1 2 3 4
             i++;
         }
+        */
 
 
-
-
+        // SUM OF FIRST N NATURAL NUMBER
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" enter your number");     //5
+        int n = sc.nextInt();
+        int i =1 ;
+        int sum=0;
+        while (i <= n){
+            sum += i;
+            System.out.print(sum+ " ");          // 1 3 6 10 15
+            i++;
+        }
     }
 }
