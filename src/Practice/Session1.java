@@ -239,10 +239,26 @@ public class Session1 {
          */
 
         // PRINT REVERSE OF THE NUMBER
+        /*
         int n = 412;
         for (int i = 0 ; i <= n ; i ++){
             i = n%10 ;
             System.out.print(i);           //214
+            n = n/ 10;
+        }
+        */
+
+
+
+        // PRINT REVERSE OF THE GIVEN NUMBER
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your number ");        //4321
+        int n = sc.nextInt();
+        int rev =0;
+        for (int i = 0 ; i <= n ; i ++){
+            i = n%10 ;
+            rev = (rev * 10)+i;
+            System.out.print(i);           //1234
             n = n/ 10;
         }
     }
