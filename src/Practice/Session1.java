@@ -266,6 +266,7 @@ public class Session1 {
         */
 
         // factorial of the number
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your number ");       // 171
         double n = sc.nextInt();
@@ -275,5 +276,18 @@ public class Session1 {
              fact = fact * i;
         }
         System.out.print(fact+ " ");               // infinty
+         */
+
+
+        // PRINT MULTIPLICATION TABLE
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your number for the table = ");       // 171
+        int n = sc.nextInt();
+
+        for (int  i = 1 ; i <= 10 ; i ++){
+            System.out.println(n + " * " + i+ " = " + (i*n));
+        }
+
+
     }
 }
