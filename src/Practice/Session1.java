@@ -166,6 +166,7 @@ public class Session1 {
 
 
         //  FIND The GIVEN YEAR IS LEAP YEAR OR NOT
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER your year  = ");
         int year = sc.nextInt();
@@ -180,5 +181,21 @@ public class Session1 {
         else{
             System.out.println ( year +"is not leap year" );
         }
+        */
+
+        //-----------------------------------------------------------------------------------------------------------------------------------------------
+
+        // STARTIING LOOPS FOR PRACTICE
+
+        // PRINT NUMBER FROM 1 TO 10 USING WHILE LOOP
+        int i = 1;
+        while (i <= 10){
+            System.out.println(i);
+            i++;
+        }
+
+
+
+
     }
 }
