@@ -138,6 +138,7 @@ public class Session1 {
 
 
         // Write a Java program to input week number (1-7) and print day of week name using switch case.
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println(" enter the number of the week = ");
         int num = sc.nextInt();
@@ -158,7 +159,26 @@ public class Session1 {
             case 7 : System.out.println(" today is saturday");
             break;
             default: System.out.println(" this is out of syllabus");
+        }
+        */
 
+
+
+
+        //  FIND The GIVEN YEAR IS LEAP YEAR OR NOT
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER your year  = ");
+        int year = sc.nextInt();
+
+        boolean x = year % 4 ==0;
+        boolean y = year % 100 != 0;
+        boolean z = (year % 100 ==0 && year % 400 ==0);
+
+        if (  x && ( y || z) ){
+            System.out.println( year+  "is  leap year ");
+        }
+        else{
+            System.out.println ( year +"is not leap year" );
         }
     }
 }
