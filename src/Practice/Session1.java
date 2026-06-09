@@ -123,36 +123,42 @@ public class Session1 {
 
 
 
-
-        //  check fever or not with temp above 100
+        //check fever or not with temp above 100
+        /*
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter number one = " );      //2
+        System.out.println("enter number one = " );      // 103.31
         double temp = sc.nextDouble();
 
         if (temp > 100 ){
             System.out.println("you have a fever");
         }else{
-            System.out.println("you dont have a fever");             // 2 is positive
+            System.out.println("you dont have a fever");             // you have a fever
         }
+         */
 
 
+        // Write a Java program to input week number (1-7) and print day of week name using switch case.
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" enter the number of the week = ");
+        int num = sc.nextInt();
 
+        switch ( num ){
+            case 1 : System.out.println(" today is sunday");
+            break;
+            case 2 : System.out.println(" today is monday");
+            break;
+            case 3 : System.out.println(" today is tuesday");
+            break;
+            case 4 : System.out.println(" today is wednesday");
+            break;
+            case 5 : System.out.println(" today is thursday");
+            break;
+            case 6 : System.out.println(" today is friday");
+            break;
+            case 7 : System.out.println(" today is saturday");
+            break;
+            default: System.out.println(" this is out of syllabus");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
     }
 }
