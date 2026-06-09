@@ -212,6 +212,7 @@ public class Session1 {
 
 
         // SUM OF FIRST N NATURAL NUMBER
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println(" enter your number");     //5
         int n = sc.nextInt();
@@ -221,6 +222,28 @@ public class Session1 {
             sum += i;
             System.out.print(sum+ " ");          // 1 3 6 10 15
             i++;
+        }
+         */
+
+        // PRINT SQUARE PATTERN
+        /*
+        int n = 4;
+        for (int i = 1 ; i <= n ; i ++){
+            System.out.println("*****");
+        }
+        //*****
+        //*****
+        //*****
+        //*****
+
+         */
+
+        // PRINT REVERSE OF THE NUMBER
+        int n = 412;
+        for (int i = 0 ; i <= n ; i ++){
+            i = n%10 ;
+            System.out.print(i);           //214
+            n = n/ 10;
         }
     }
 }
