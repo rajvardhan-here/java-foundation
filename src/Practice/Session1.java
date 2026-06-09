@@ -109,6 +109,7 @@ public class Session1 {
 
 
         // given number is  positive or negative
+        /*
         Scanner sc = new Scanner(System.in);
         System.out.println("enter number one = " );      //2
         int num1 = sc.nextInt();
@@ -118,6 +119,32 @@ public class Session1 {
         }else{
             System.out.println(num1+ " is negative");             // 2 is positive
         }
+         */
+
+
+
+
+        //  check fever or not with temp above 100
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter number one = " );      //2
+        double temp = sc.nextDouble();
+
+        if (temp > 100 ){
+            System.out.println("you have a fever");
+        }else{
+            System.out.println("you dont have a fever");             // 2 is positive
+        }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
