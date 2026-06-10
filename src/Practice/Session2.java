@@ -69,6 +69,7 @@ public class Session2 {
 
         //--------------------------------------------------------------------------------------------------------------------------------------
 
+        // PRINT CHARACTER PATTERN
         char ch = 'A';
         for (int line  = 1  ; line  <=  6 ; line ++){
             for ( int chars = 1 ; chars <= line ; chars++){
