@@ -103,6 +103,7 @@ import java.util.*;
         // -----------------------------------------------------------------------------------------------------------------------------
 
 
+        // PIME NUMBER
         public static boolean isPrime(int n) {
             if (n ==2) {
                 return true;
@@ -115,16 +116,22 @@ import java.util.*;
             }
             return true;
         }
+
+        ///  print all prime in range
+        public static void primeinrange(int n) {
+             for ( int i = 1 ; i <=  n ; i++){
+                 if(isPrime(i)){
+                 System.out.print( i+ " ");
+                 }
+             }
+             System.out.println();
+        }
         public static void main(String args []){
             Scanner sc = new Scanner(System.in);
-
-            System.out.println("enter your number = ");       //17
+            System.out.println("enter your number = ");       //100
             int n = sc.nextInt();
-            System.out.println(isPrime(n));   //true
+            primeinrange(n);   // 1 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
         }
-
-
-
     }
 
 
