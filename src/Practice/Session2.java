@@ -38,6 +38,7 @@ import java.util.*;
 
         // -------------------------------------------------------------------------------------------------------------------------------
 
+        /* PRODUCT OF TWO NUMBER MULTIPLE TIMES
         public static int raj(int num1 , int num2){
             int sum = num1 * num1;
 
@@ -51,8 +52,24 @@ import java.util.*;
             sum = raj(55,33);
             System.out.println(sum);
         }
+         */
 
+        /// / -------------------------------------------------------------------------------------------------------------------------------
 
+        public static int factorial(int n) {
+            int fact = 1;
+            for (int i = 1; i <= n; i++){
+                fact = fact * i;
+        }
+            return fact;
+    }
+        public static void main(String args []){
+            Scanner sc = new Scanner(System.in);
+
+            System.out.println("enter your number = ");       //5
+            int n = sc.nextInt();
+            System.out.println(factorial(n));   //120
+        }
     }
 
 
