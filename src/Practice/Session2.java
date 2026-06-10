@@ -1,7 +1,31 @@
 import java.util.*;
+    public class Session2 {
 
-public class Session2 {
-    public static void main(String args[]){
+        // ADDITION OF TWO NUMBER USING FUNCTION
+        public static int raj(int num1 , int num2){
+        int sum = num1 + num1;
+
+        return sum;
+    }
+        public static void main(String args[]){
+            int a = 3;
+            int b = 4;
+            int sum = raj(a,b);
+            System.out.println(sum);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
         /*
         int line = 1;
@@ -69,7 +93,7 @@ public class Session2 {
 
         //--------------------------------------------------------------------------------------------------------------------------------------
 
-        // PRINT CHARACTER PATTERN
+        /* PRINT CHARACTER PATTERN
         char ch = 'A';
         for (int line  = 1  ; line  <=  6 ; line ++){
             for ( int chars = 1 ; chars <= line ; chars++){
@@ -84,6 +108,6 @@ public class Session2 {
         //GHIJ
         //KLMNO
         //PQRSTU
+         */
 
-    }
-}
+        //--------------------------------------------------------------------------------------------------------------------------------------
