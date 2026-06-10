@@ -2,6 +2,7 @@ import java.util.*;
     public class Session2 {
 
         // ADDITION OF TWO NUMBER USING FUNCTION
+        /*
         public static int raj(int num1 , int num2){
         int sum = num1 + num1;
 
@@ -13,6 +14,23 @@ import java.util.*;
             int sum = raj(a,b);
             System.out.println(sum);
     }
+         */
+
+        // -------------------------------------------------------------------------------------------------------------------------------
+
+        // SWAP OF TWO NUMBER
+
+        public static void main(String args[]){
+            int a = 3;
+            int b = 4;
+
+            int temp = a;
+            a = b ;
+            b = temp ;
+
+            System.out.println(" swap of a = " +a);
+            System.out.println(" swap of b = " +b);
+        }
 
 }
 
