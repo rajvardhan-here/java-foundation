@@ -54,8 +54,9 @@ import java.util.*;
         }
          */
 
-        /// / -------------------------------------------------------------------------------------------------------------------------------
+        // -------------------------------------------------------------------------------------------------------------------------------
 
+        /*  FIND FACTORIAL OF THE GIVEN NUMBER USING FUNCTION  "
         public static int factorial(int n) {
             int fact = 1;
             for (int i = 1; i <= n; i++){
@@ -70,6 +71,60 @@ import java.util.*;
             int n = sc.nextInt();
             System.out.println(factorial(n));   //120
         }
+         */
+
+        // -----------------------------------------------------------------------------------------------------------------------------
+
+        // FUNCTION OVERLOADING
+        /*
+        public static int raj(int num1 , int num2){
+            int sum = num1 - num2;
+            return sum;
+        }
+
+        public static int raj(int num1 , int num2 , int num3) {
+            int sum = num1 + num2 + num3;
+            return sum;
+        }
+
+            public static float raj(float num1 , float num2) {
+                float sum = num1 * num2;
+                return sum;
+            }
+            public static void main(String args[]){
+
+            System.out.println(raj(2,5,3));
+            System.out.println(raj(2F,10F));
+            System.out.println(raj(1001,23));
+
+            }
+            */
+
+        // -----------------------------------------------------------------------------------------------------------------------------
+
+
+        public static boolean isPrime(int n) {
+            if (n ==2) {
+                return true;
+            }
+
+            for (int i = 2; i <= Math.sqrt(n); i++) {
+                if (n % i == 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        public static void main(String args []){
+            Scanner sc = new Scanner(System.in);
+
+            System.out.println("enter your number = ");       //17
+            int n = sc.nextInt();
+            System.out.println(isPrime(n));   //true
+        }
+
+
+
     }
 
 
