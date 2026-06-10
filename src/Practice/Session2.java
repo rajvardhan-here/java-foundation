@@ -103,7 +103,7 @@ import java.util.*;
         // -----------------------------------------------------------------------------------------------------------------------------
 
 
-        // PIME NUMBER
+        /* Prime  NUMBER
         public static boolean isPrime(int n) {
             if (n ==2) {
                 return true;
@@ -132,6 +132,34 @@ import java.util.*;
             int n = sc.nextInt();
             primeinrange(n);   // 1 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
         }
+        */
+
+        // -----------------------------------------------------------------------------------------------------------------------------
+
+
+        public static void bintodec(int binnum) {
+            int mynum = binnum;
+            int pow = 0;
+            int dec=0;
+            while (binnum >0){
+                int lastdigit = binnum % 10;
+                dec = dec + (lastdigit * (int) Math.pow(2,pow));
+                binnum = binnum/10;
+                pow++;
+
+            }
+            System.out.println("decimal of " +mynum + " is " +dec);
+        }
+        public static void main(String args []){
+            Scanner sc = new Scanner(System.in);
+            System.out.println("enter your number = ");       //105
+            int binnum = sc.nextInt();
+            bintodec(binnum);    // 5
+        }
+
+
+
+
     }
 
 
