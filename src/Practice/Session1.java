@@ -1,3 +1,4 @@
+/*
 import java.util.*;
 
 public class Session1 {
@@ -288,10 +289,7 @@ public class Session1 {
         for (int  i = 1 ; i <= 10 ; i ++){
             System.out.println(n + " * " + i+ " = " + (i*n));
         }
-        */
-
-
-
-
     }
 }
+
+         */
