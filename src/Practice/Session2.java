@@ -19,17 +19,20 @@ import java.util.*;
         // -------------------------------------------------------------------------------------------------------------------------------
 
         // SWAP OF TWO NUMBER
-
         public static void main(String args[]){
             int a = 3;
             int b = 4;
+            raj(a,b);
+        }
 
+        public static int raj(int a , int b) {
             int temp = a;
-            a = b ;
-            b = temp ;
+            a = b;
+            b = temp;
 
-            System.out.println(" swap of a = " +a);
-            System.out.println(" swap of b = " +b);
+            System.out.println(" swap of a = " + a);
+            System.out.println(" swap of b = " + b);
+            return 0;
         }
 
 }
