@@ -18,7 +18,7 @@ import java.util.*;
 
         // -------------------------------------------------------------------------------------------------------------------------------
 
-        // SWAP OF TWO NUMBER
+        /* SWAP OF TWO NUMBER
         public static void main(String args[]){
             int a = 3;
             int b = 4;
@@ -34,8 +34,26 @@ import java.util.*;
             System.out.println(" swap of b = " + b);
             return 0;
         }
+        */
 
-}
+        // -------------------------------------------------------------------------------------------------------------------------------
+
+        public static int raj(int num1 , int num2){
+            int sum = num1 * num1;
+
+            return sum;
+        }
+        public static void main(String args[]){
+            int a = 3;
+            int b = 4;
+            int sum = raj(a,b);
+            System.out.println(sum);
+            sum = raj(55,33);
+            System.out.println(sum);
+        }
+
+
+    }
 
 
 
