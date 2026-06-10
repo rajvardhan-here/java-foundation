@@ -1,4 +1,4 @@
-import java.util.*;
+/* import java.util.*;
     public class Session2 {
 
         // ADDITION OF TWO NUMBER USING FUNCTION
@@ -182,15 +182,13 @@ import java.util.*;
             dectobin(decnum);                         //1011
 
         }
+     }
         */
 
 // -----------------------------------------------------------------------------------------------------------------------------
 
 
-
-
     //  END OF  THE SESSION
-//  }
 
 
 
