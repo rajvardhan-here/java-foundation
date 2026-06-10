@@ -37,6 +37,7 @@ public class Session2 {
         //--------------------------------------------------------------------------------------------------------------------------
 
         // inverted star pattern
+        /*
         int n =4;
         for (int line  = 1  ; line  <= 4 ; line ++){
             for ( int star = 1   ; star <= n- line+1 ; star++){
@@ -48,6 +49,25 @@ public class Session2 {
         //***
         //**
         //*
+               */
+        //--------------------------------------------------------------------------------------------------------------------------
+
+        //HALF PYRAMID PATTERN
+        int n =4;
+        for (int line  = 1  ; line  <= 5 ; line ++){
+            for ( int star = 1   ; star <= line ; star++){
+                System.out.print(star);
+            }
+            System.out.println();
+        }
+        //1
+        //12
+        //123
+        //1234
+        //12345
+
+
+
 
     }
 }
