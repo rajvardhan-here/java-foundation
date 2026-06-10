@@ -53,7 +53,7 @@ public class Session2 {
         //--------------------------------------------------------------------------------------------------------------------------
 
         //HALF PYRAMID PATTERN
-        int n =4;
+        /*
         for (int line  = 1  ; line  <= 5 ; line ++){
             for ( int star = 1   ; star <= line ; star++){
                 System.out.print(star);
@@ -65,9 +65,24 @@ public class Session2 {
         //123
         //1234
         //12345
+         */
 
+        //--------------------------------------------------------------------------------------------------------------------------------------
 
-
+        char ch = 'A';
+        for (int line  = 1  ; line  <=  6 ; line ++){
+            for ( int chars = 1 ; chars <= line ; chars++){
+                System.out.print(ch);
+                ch++;
+            }
+            System.out.println();
+        }
+        //A
+        //BC
+        //DEF
+        //GHIJ
+        //KLMNO
+        //PQRSTU
 
     }
 }
