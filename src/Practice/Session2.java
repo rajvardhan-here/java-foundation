@@ -162,8 +162,7 @@ import java.util.*;
 
 // -----------------------------------------------------------------------------------------------------------------------------
 
-
-        public static void dectobin(int decnum) {
+        /*public static void dectobin(int decnum) {
             int mynum = decnum;
             int pow = 0;
             int bin =0;
@@ -183,10 +182,15 @@ import java.util.*;
             dectobin(decnum);                         //1011
 
         }
+        */
+
+// -----------------------------------------------------------------------------------------------------------------------------
 
 
-    }
 
+
+    //  END OF  THE SESSION
+//  }
 
 
 
