@@ -204,7 +204,7 @@ public class patterntwo {
       //-----------------------------------------------------------------------------------------------------------------------------------
 
 
-     // SOLID
+     /* SOLID RHOMBUS
      public static void solid_rohmbus(int rows ){
          for (int i = rows; i >=1 ; i--){
 
@@ -223,9 +223,44 @@ public class patterntwo {
 
         solid_rohmbus(5);
     }
+    */
+
+    //-----------------------------------------------------------------------------------------------------------------------------------
 
 
+    // HOLLOW RHOMBUS
+    public static void hollow(int totlrows , int totlcol){
+        for ( int i = 1; i <= totlrows ; i ++){                        // outer loop
+
+                // SPACES PRINT
+                for (int j = 1 ; j <= totlrows - i + 1 ; j++ ){
+                    System.out.print(" ");
+                }
+
+                // HOLLOW RECTANGLE
+                for (int j = 1; j  <= totlcol ; j++) {    //inner loop
+                    if( i  == 1 ||  i == totlrows || j ==1 || j == totlcol){
+                    System.out.print(" *");
+                    }
+                    else {
+                    System.out.print("  ");
+                  }
+                }
+
+            System.out.println();
+        }
+    }
+    public static void main(String args[]){
+        hollow(5,5);
+    }
+
+    //      * * * * *
+    //     *       *
+    //    *       *
+    //   *       *
+    //  * * * * *
 
 
+      //-----------------------------------------------------------------------------------------------------------------------------------
 
 }
