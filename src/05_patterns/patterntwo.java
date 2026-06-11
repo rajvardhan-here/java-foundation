@@ -31,6 +31,7 @@ public class patterntwo {
     // -----------------------------------------------------------------------------------------------------------------------------------
 
     // half pyramid and inverted pattern
+    /*
     public static void HAlFPYRAMID(int rows ){
 
         for (int i = 1; i <= rows ; i++){
@@ -57,7 +58,37 @@ public class patterntwo {
     // *****
     //******
 
+     */
+
     // -----------------------------------------------------------------------------------------------------------------------------------
+
+    // INVERTED HALF PYRAMID PATTERN
+
+    public static void inverted_HAlFPYRAMID(int rows ){
+
+        for (int i = 1; i <= rows ; i++){
+
+            for (int j = 1 ; j <= rows - i + 1 ; j++ ){
+                System.out.print(j+ " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main (String args []){
+
+        inverted_HAlFPYRAMID(5);
+
+    }
+    //1 2 3 4 5
+    //1 2 3 4
+    //1 2 3
+    //1 2
+    //1
+
+
+    // -----------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
