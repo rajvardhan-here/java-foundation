@@ -148,7 +148,7 @@ public class patterntwo {
 
     // -----------------------------------------------------------------------------------------------------------------------------------
 
-    // BUTTERFLY PATTERN
+    /* BUTTERFLY PATTERN
     public static void butterfly_pattern(int rows ){
 
         for (int i = 1; i <= rows ; i++){
@@ -156,15 +156,16 @@ public class patterntwo {
             for (int j = 1 ; j <= i ; j++ ){
                 System.out.print("* ");
             }
-            for(int j =1 ; j<= 2*(rows-i);j++)
-            System.out.print("  ");
-
+            for(int j =1 ; j<= 2*(rows-i);j++) {
+                System.out.print("  ");
+            }
             for ( int j = 1; j<= i; j++){
                 System.out.print("* ");
             }
 
             System.out.println();
         }
+        // 2ND HALF
         for (int i = rows; i >= 1 ; i--){
 
 
@@ -197,5 +198,34 @@ public class patterntwo {
     //* *             * *
     //*                 *
 
- //
+    */
+
+
+      //-----------------------------------------------------------------------------------------------------------------------------------
+
+
+     // SOLID
+     public static void solid_rohmbus(int rows ){
+         for (int i = rows; i >=1 ; i--){
+
+             for (int j = 1 ; j <= i ; j++ ){
+                 System.out.print(" ");
+             }
+             for(int j =1 ; j<= rows;j++) {
+                 System.out.print("*");
+             }
+
+             System.out.println();
+         }
+     }
+
+    public static void main (String args []){
+
+        solid_rohmbus(5);
+    }
+
+
+
+
+
 }
