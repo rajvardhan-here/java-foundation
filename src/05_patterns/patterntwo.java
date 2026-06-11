@@ -118,7 +118,7 @@ public class patterntwo {
     // -----------------------------------------------------------------------------------------------------------------------------------
 
 
-        // print 0 - 1 TRIANGULAR PATTERN
+        /* print 0 - 1 TRIANGULAR PATTERN
         public static void triangle_patten(int rows ){
 
         for (int i = 1; i <= rows ; i++){
@@ -144,9 +144,58 @@ public class patterntwo {
     //0101
     //10101
 
+         */
+
+    // -----------------------------------------------------------------------------------------------------------------------------------
+
+    // BUTTERFLY PATTERN
+    public static void butterfly_pattern(int rows ){
+
+        for (int i = 1; i <= rows ; i++){
+
+            for (int j = 1 ; j <= i ; j++ ){
+                System.out.print("* ");
+            }
+            for(int j =1 ; j<= 2*(rows-i);j++)
+            System.out.print("  ");
+
+            for ( int j = 1; j<= i; j++){
+                System.out.print("* ");
+            }
+
+            System.out.println();
+        }
+        for (int i = rows; i >= 1 ; i--){
 
 
+        for (int j = 1 ; j <= i ; j++ ){
+            System.out.print("* ");
+        }
+        for(int j =1 ; j<= 2*(rows-i);j++)
+            System.out.print("  ");
 
+        for ( int j = 1; j<= i; j++){
+            System.out.print("* ");
+        }
 
+        System.out.println();
+        }
+    }
 
+    public static void main (String args []){
+
+        butterfly_pattern(5);
+    }
+    //*                 *
+    //* *             * *
+    //* * *         * * *
+    //* * * *     * * * *
+    //* * * * * * * * * *
+    //* * * * * * * * * *
+    //* * * *     * * * *
+    //* * *         * * *
+    //* *             * *
+    //*                 *
+
+ //
 }
