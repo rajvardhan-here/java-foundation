@@ -91,7 +91,7 @@ public class patterntwo {
 
     // -----------------------------------------------------------------------------------------------------------------------------------
 
-    // print floyd_triangle
+    /* print floyd_triangle
     public static void floyd_triangle(int rows ){
         int counter = 1;
         for (int i = 1; i <= rows ; i++){
@@ -113,7 +113,36 @@ public class patterntwo {
     //4 5 6
     //7 8 9 10
     //11 12 13 14 15
+    */
 
+    // -----------------------------------------------------------------------------------------------------------------------------------
+
+
+        // print 0 - 1 TRIANGULAR PATTERN
+        public static void triangle_patten(int rows ){
+
+        for (int i = 1; i <= rows ; i++){
+
+            for (int j = 1 ; j <= i ; j++ ){
+                if((i + j) % 2 == 0 ){
+                System.out.print("1");
+             }else {
+                    System.out.print("0");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main (String args []){
+
+        triangle_patten(5);
+    }
+    //1
+    //01
+    //101
+    //0101
+    //10101
 
 
 
