@@ -229,7 +229,7 @@ public class patterntwo {
 
 
     // HOLLOW RHOMBUS
-    public static void hollow(int totlrows , int totlcol){
+    /* public static void hollow(int totlrows , int totlcol){
         for ( int i = 1; i <= totlrows ; i ++){                        // outer loop
 
                 // SPACES PRINT
@@ -259,8 +259,48 @@ public class patterntwo {
     //    *       *
     //   *       *
     //  * * * * *
+    */
 
 
       //-----------------------------------------------------------------------------------------------------------------------------------
 
+
+    // DIAMOND PATTERN
+    public static void diamond_pattern(int rows ){
+        for(int i = 1; i <= rows ; i++){
+
+        for (int j = 1 ; j <=  rows - i ; j++ ){
+            System.out.print(" ");
+        }
+        for (int j = 1 ; j <= (2*i) - 1 ; j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+
+        // 2nd half
+        for(int i = rows; i >= 1 ; i--){
+
+            for (int j = 1 ; j <=  rows - i ; j++ ){
+                System.out.print(" ");
+            }
+            for (int j = 1 ; j <= (2*i)-1 ; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+}
+
+public static void main (String args []) {
+
+    diamond_pattern(4);
+  }
+    //   *
+    //  ***
+    // *****
+    //*******
+    //*******
+    // *****
+    //  ***
+    //   *
 }
