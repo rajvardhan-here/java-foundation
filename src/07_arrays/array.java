@@ -18,7 +18,12 @@ public class array   {
 
         System.out.println(numbers.length);
 
+
         numbers[2] = 1001;
-        System.out.println(numbers[2]);
+        System.out.println("updated value for python is " +numbers[2]);
+
+        int percentage = numbers[0] + numbers[1] +numbers[2] /3 ;
+        System.out.println("average of three numbers is  = " + percentage);
+
     }
 }
