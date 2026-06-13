@@ -31,29 +31,56 @@ public class linearsearch {
 
 //     -------------------------------------------------------------------------------------------------------------
 
+     // largest in array
+//    public static void main(String[] args) {
+//        int[] numbers = { 112, 4, 2, 12, 31, 21, 4123, 31, 1 };
+//        System.out.println("Largest: " + largestNumber(numbers));
+//        System.out.println("Smallest: " + smallestNumber(numbers));
+//    }
+//
+//    public static int largestNumber(int[] numbers) {
+//        int largest = Integer.MIN_VALUE;
+//        for (int num : numbers) {
+//            if (num > largest) largest = num;
+//        }
+//        return largest;
+//    }
+//
+//    public static int smallestNumber(int[] numbers) {
+//        int smallest = Integer.MAX_VALUE;
+//        for (int num : numbers) {
+//            if (num < smallest) smallest = num;
+//        }
+//        //Smallest: 1
+//        return smallest;
+//    }
+//    //Largest: 4123
 
-    public static void main(String[] args) {
-        int[] numbers = { 112, 4, 2, 12, 31, 21, 4123, 31, 1 };
-        System.out.println("Largest: " + largestNumber(numbers));
-        System.out.println("Smallest: " + smallestNumber(numbers));
-    }
 
-    public static int largestNumber(int[] numbers) {
-        int largest = Integer.MIN_VALUE;
-        for (int num : numbers) {
-            if (num > largest) largest = num;
+    // ----------------------------------------------------------------------------------------------------------------------------
+
+       // LINEAR SEARCH IN JAVA DSA - JUNE 13
+    public static void main (String args[]){
+        int number[] = { 10 , 20 , 30 , 40 , 50 ,60};
+        int key = 50;
+
+        int index = findnum( number , key);
+        if ( index == -1){
+            System.out.println("not found " + index);
         }
-        return largest;
-    }
-
-    public static int smallestNumber(int[] numbers) {
-        int smallest = Integer.MAX_VALUE;
-        for (int num : numbers) {
-            if (num < smallest) smallest = num;
+        else{
+            System.out.println(" number is found at index " + index);
         }
-        return smallest;
     }
-    //Largest: 4123
-    //Smallest: 1
 
-}
+    public static int findnum(int number[] ,int key ){
+
+        for (int i = 0 ; i < number.length ; i++) {
+
+            if (number[i] == key) {
+                return i;
+           }
+        }
+            return -1;
+    }
+}           //  number is found at index 4
