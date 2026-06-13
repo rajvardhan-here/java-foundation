@@ -59,28 +59,58 @@ public class linearsearch {
 
     // ----------------------------------------------------------------------------------------------------------------------------
 
-       // LINEAR SEARCH IN JAVA DSA - JUNE 13
-    public static void main (String args[]){
-        int number[] = { 10 , 20 , 30 , 40 , 50 ,60};
-        int key = 50;
+       // LINEAR SEARCH IN JAVA DSA - JUNE 13     for intger value
+//    public static void main (String args[]){
+//        int number[] = { 10 , 20 , 30 , 40 , 50 ,60};
+//        int key = 50;
+//
+//        int index = findnum( number , key);
+//        if ( index == -1){
+//            System.out.println("not found " );
+//        }
+//        else{
+//            System.out.println(" number is found at index " + index);
+//        }
+//    }
+//
+//    public static int findnum(int number[] ,int key ){
+//
+//        for (int i = 0 ; i < number.length ; i++) {
+//
+//            if (number[i] == key) {
+//                return i;
+//           }
+//        }
+//            return -1;
+//    }
+//}           //  number is found at index 4
+//
 
-        int index = findnum( number , key);
-        if ( index == -1){
-            System.out.println("not found " + index);
-        }
-        else{
-            System.out.println(" number is found at index " + index);
-        }
+// -----------------------------------------------------------------------------------------------------------------------
+
+
+    // LINEAR SEARCH IN JAVA DSA - JUNE 13     FOR STRING VALUE
+   public static void main (String[] args){
+
+    String  food[] = {"dal" , "bati" , "laddu" , "sev" , "lund"};
+    String  key = "sev";
+
+    int result =  (khana(food,key));
+    if (result == -1){
+        System.out.print("food not found  ");
+    }else{
+        System.out.print(" food is " + result);
     }
 
-    public static int findnum(int number[] ,int key ){
+}
 
-        for (int i = 0 ; i < number.length ; i++) {
+public static int khana(String []food , String key) {
 
-            if (number[i] == key) {
-                return i;
-           }
+    for (int i = 0; i < food.length; i++) {
+        if (food[i].equals(key)) {                     //  food is 3
+            return i;
         }
-            return -1;
     }
-}           //  number is found at index 4
+    return -1;
+}
+}
