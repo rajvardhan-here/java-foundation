@@ -94,13 +94,13 @@ Every commit represents a real study session.
 | # | Topic | Status |
 |:---:|---|:---:|
 | 01 | Variables & Data Types | ✅ |
-| 02 | Operators | 🔄 |
-| 03 | Conditional Statements | ⏳ |
-| 04 | Loops | ⏳ |
-| 05 | Patterns | ⏳ |
-| 06 | Functions & Methods | ⏳ |
-| 07 | Arrays | ⏳ |
-| 08 | Sorting Algorithms | ⏳ |
+| 02 | Operators | ✅ |
+| 03 | Conditional Statements | ✅ |
+| 04 | Loops | ✅ |
+| 05 | Patterns | ✅ |
+| 06 | Functions & Methods | ✅ |
+| 07 | Arrays | ✅ |
+| 08 | Sorting Algorithms | ✅ |
 | 09 | 2D Arrays | ⏳ |
 | 10 | Strings | ⏳ |
 | 11 | Bit Manipulation | ⏳ |
