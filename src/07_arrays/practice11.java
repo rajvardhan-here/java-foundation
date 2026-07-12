@@ -22,5 +22,4 @@ public  class practice11 {
             System.out.println("key found at index number  = " +search);
         }
     }
-
 }
