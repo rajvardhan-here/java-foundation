@@ -19,7 +19,7 @@ public  class practice11 {
             System.out.println("key not found ");
         }
         else {
-            System.out.println("key found at index number  = " +search);
+            System.out.println("key found at index  = " +search);
         }
     }
 }
