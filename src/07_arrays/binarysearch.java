@@ -21,7 +21,7 @@ public class binarysearch {
         public static void main(String args[]){
         int numbers[] = {2,3,4,5,6,7,8,9,10};
         int key = 35;
-            System.out.println("the number found at index - " + bsearch(numbers,key));
+            System.out.println("the number found at index  is - " + bsearch(numbers,key));
 
         }
 }
