@@ -16,7 +16,7 @@ public class printpairs {
 
 
     public static void main(String args[]){
-        int numbers[] = {2,4,6,7,8,9,};
+        int numbers[] = {2,4,6,7,8,9};
 
         pairs(numbers);
     }
