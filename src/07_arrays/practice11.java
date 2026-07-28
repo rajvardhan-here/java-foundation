@@ -11,7 +11,7 @@ public  class practice11 {
         return -1;
     }
     public static void main (String  args []){
-        int number[] =  { 2,4,6,8,10,12,14,16,18};
+        int number[] =  { 2,4,6,8,10,14,16,18};
         int key = 18;
 
         int search = linearsearch(number,key);
