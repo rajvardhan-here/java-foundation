@@ -93,7 +93,7 @@ public class linearsearch {
    public static void main (String[] args){
 
     String  food[] = {"dal" , "bati" , "laddu" , "sev" , "lund"};
-    String  key = "sev";
+    String  key = "dal";
 
     int result =  (khana(food,key));
     if (result == -1){
