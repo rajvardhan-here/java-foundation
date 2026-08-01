@@ -92,7 +92,7 @@ public class linearsearch {
     // LINEAR SEARCH IN JAVA DSA - JUNE 13     FOR STRING VALUE
    public static void main (String[] args){
 
-    String  food[] = {"dal" , "bati" , "laddu" , "sev" , "lund"};
+    String  food[] = {"dal" , "bati"  , "sev" , "lund"};
     String  key = "dal";
 
     int result =  (khana(food,key));
