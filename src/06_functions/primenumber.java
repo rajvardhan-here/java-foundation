@@ -28,7 +28,7 @@ public class primenumber {
 
     public static void main(String args[]){             //  MAIN FUNCTION
         Scanner sc = new Scanner(System.in);
-        System.out.println("ENTER YOUR number : ");
+        System.out.println("ENTER YOUR numbe : ");
         int n = sc.nextInt();
         primeinrange(n);
     }
