@@ -13,7 +13,7 @@ public class practice{
             System.out.println("else print kr do ");
         }
 
-      */
+
 
                 Scanner sc = new Scanner(System.in);
                 int num = sc.nextInt();
@@ -23,6 +23,30 @@ public class practice{
                 else{
                     System.out.println("number is odd ");
                 }
+
+*/
+
+       // -------------------------------------------------------------------------------------------
+
+
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int raj = sc.next().charAt(0);
+
+        switch (raj){
+            case '+' : System.out.println(a+b);
+                break;
+
+            case '-' : System.out.println(a-b);
+                break;
+
+            case '*' : System.out.println(a*b);
+                break;
+
+            case '/' : System.out.println(a/b);
+                break;
+        }
 
 
     }
