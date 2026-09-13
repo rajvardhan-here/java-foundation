@@ -24,8 +24,6 @@ public class practice{
                     System.out.println("number is odd ");
                 }
 
-*/
-
        // -------------------------------------------------------------------------------------------
 
 
@@ -47,6 +45,18 @@ public class practice{
             case '/' : System.out.println(a/b);
                 break;
         }
+
+        */
+
+        Scanner sc = new Scanner(System.in);
+        double temp = 103.5;
+
+        if( temp  > 100 ) {
+            System.out.println("you have fever ");
+        }else{
+            System.out.println("not have fever ");
+        }
+
 
 
     }
