@@ -1,9 +1,9 @@
-/*
+
 import java.util.*;
 
 public class practiceloop {
     public static void main(String args[]) {
-
+    /*
         // quesation no. 1 -  how many time hello is printed
         for (int i = 0; i < 5; i++) {
             System.out.println("hello");
@@ -105,6 +105,17 @@ public class practiceloop {
             factorial = factorial * n;
             System.out.println("factorial is -  "  + factorial);
         }
+
+
+        -----------------------------------------------------------------------------
+        */
+
+          int a = 1;
+
+          while( a <= 10){
+              System.out.println(a);
+              a++;
+          }
+
     }
 }
-*/
