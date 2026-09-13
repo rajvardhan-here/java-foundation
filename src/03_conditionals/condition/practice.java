@@ -2,6 +2,7 @@ import java.util.*;
 public class practice{
     public static void main(String args[]){
 
+ /*
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
@@ -11,5 +12,18 @@ public class practice{
         else{
             System.out.println("else print kr do ");
         }
+
+      */
+
+                Scanner sc = new Scanner(System.in);
+                int num = sc.nextInt();
+
+                if(num % 2 == 0 )
+                    System.out.println("numbe is even ");
+                else{
+                    System.out.println("number is odd ");
+                }
+
+
     }
 }
