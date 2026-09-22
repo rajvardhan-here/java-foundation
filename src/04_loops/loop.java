@@ -18,9 +18,14 @@ public class loop {
          */
          // --------------------------------------------------------------------------------
 
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
-        for (int i = 1 ; i <= 4 ; i++) {
-        System.out.println("****");
+
+        while (n > 0) {
+            int ld = n % 10;
+            System.out.print(ld);
+            n  = n / 10;
         }
 
     }
