@@ -27,21 +27,25 @@ public class loop {
             System.out.print(ld);
             n  = n / 10;
         }
-        */
-
 
         Scanner sc = new Scanner(System.in);
-int num ;
+       int num ;
+
        do {
            System.out.print("enter a number = ");
             num = sc.nextInt();
        }while ( num % 10 != 0 );
 
        System.out.println(" numbwer mil gayaaaa");
+ */
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number");
+        int n = sc.nextInt();
 
-
-
+        for(int i = 1 ; i <=10; i++){
+            System.out.println(n +" " +"* "  +i  +" " +"=" +n*i);
+        }
 
     }
 }
