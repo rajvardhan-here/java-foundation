@@ -19,8 +19,8 @@ public class loop {
          // --------------------------------------------------------------------------------
 
 
-        for (int i = 1 ; i <= 11 ; i++) {
-        System.out.println("sawariya seth");
+        for (int i = 1 ; i <= 4 ; i++) {
+        System.out.println("****");
         }
 
     }
