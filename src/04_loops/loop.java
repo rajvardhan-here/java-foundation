@@ -3,10 +3,13 @@ import java.util.*;
 public class loop {
     public static void main(String args[]){
 
-        int number = 1;
-        while( number <= 100){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
-            System.out.print(number +" ");
+        int number = 1;
+        while( number <= n){
+
+            System.out.print(number +" " );
             number++;
 
         }
