@@ -1,8 +1,14 @@
 import java.util.*;
+
 public class loop {
     public static void main(String args[]){
-        System.out.println("no more excuses from today ");
 
+        int number = 1;
+        while( number <= 100){
 
-   }
+            System.out.println(number);
+            number++;
+
+        }
+    }
 }
