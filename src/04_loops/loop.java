@@ -6,7 +6,7 @@ public class loop {
         int number = 1;
         while( number <= 100){
 
-            System.out.println(number);
+            System.out.print(number +" ");
             number++;
 
         }
