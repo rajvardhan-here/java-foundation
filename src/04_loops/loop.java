@@ -1,3 +1,5 @@
+import kotlin.jvm.internal.Ref;
+
 import java.util.*;
 
 public class loop {
@@ -17,16 +19,29 @@ public class loop {
 
          */
          // --------------------------------------------------------------------------------
-
+/*
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
-
         while (n > 0) {
             int ld = n % 10;
             System.out.print(ld);
             n  = n / 10;
         }
+        */
+
+
+        Scanner sc = new Scanner(System.in);
+int num ;
+       do {
+           System.out.print("enter a number = ");
+            num = sc.nextInt();
+       }while ( num % 10 != 0 );
+
+       System.out.println(" numbwer mil gayaaaa");
+
+
+
+
 
     }
 }
