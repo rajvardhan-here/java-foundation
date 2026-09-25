@@ -23,7 +23,7 @@ public class patternone {
 
 
     public static void main(String args[]){
-        
+
 
     }
 }
