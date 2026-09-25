@@ -9,8 +9,10 @@ public class methods {
 
     public static void main(String argsp[]){
         Scanner sc = new Scanner(System.in);
-        
-        System.out.println(raj);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c =  a + b;
+        System.out.println(c);
 
     }
 }
