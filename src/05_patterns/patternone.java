@@ -5,7 +5,7 @@ public class patternone {
 
      int n = 4;
      for (int line = 1; line <= n ; line++){
-         for(int j = 1 ; j <=  n -line +1 ; j++){
+         for(int j = 1 ; j <=  n  ; j++){
              System.out.print("*");
          }
          System .out.println();
