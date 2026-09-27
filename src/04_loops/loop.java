@@ -36,7 +36,7 @@ public class loop {
             num = sc.nextInt();
        }while ( num % 10 != 0 );
 
-       System.out.println(" numbwer mil gayaaaa");
+       System.out.println(" number mil gayaaaa");
  */
 
         Scanner sc = new Scanner(System.in);
