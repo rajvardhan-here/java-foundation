@@ -6,8 +6,9 @@ public class methods {
         a = b;
         b = temp;
 
-        System.out.println("a = " +a);
-        System.out.println("b = " +b);
+        System.out.println("the value of a is " +a);
+        System.out.println("the value of b is " +b);
+
     }
 
     public static void main(String args[]){
