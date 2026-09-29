@@ -14,7 +14,7 @@ public class loop {
         int i = 1;
         while( i <= n){
             sum = sum+i;
-            System.out.print(sum +" " );
+            System.out.print(sum +"    " );
             i++;
 
          */
