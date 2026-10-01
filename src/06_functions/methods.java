@@ -11,6 +11,17 @@ public class methods {
 
     }
 
+
+
+    public static int sum(int a , int b){
+
+        return a+b;
+    }
+
+    public static int sum(int a , int b , int c){
+        return a+b+c;
+    }
+
     public static void main(String args[]){
 
         Scanner sc= new Scanner(System.in);
@@ -18,6 +29,12 @@ public class methods {
         int a = sc.nextInt();
         System.out.println("enter b ");
         int b = sc.nextInt();
-        swap(a,b);
+        System.out.println("enter c ");
+        int c = sc.nextInt();
+        System.out.println(sum(a,b,c));
     }
+
+
+
+
 }
