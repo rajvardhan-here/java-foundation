@@ -40,8 +40,8 @@ public class methods {
 
     public static void isPrimerange(int n){
         for (int i = 2; i <= n ; i++){
-            if (isPrime(i));{
-            System.out.print(i+ " ");
+            if (isPrime(i)){
+            System.out.print(i + " ");
         }
         }
         System.out.println();
