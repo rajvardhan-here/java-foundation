@@ -26,8 +26,17 @@ public class methods {
         return a+b;
     }
 
+    public static boolean isPrime(int n ){
+        if (n ==2){
+            return true;
+        }
+        for(int i = 2 ; i<= Math.sqrt(n); i++){
+            
+        }
+    }
+
     public static void main(String args[]){
 
-        System.out.println(sum(22.12,1121));
+        System.out.println(isPrime(3));
     }
 }
