@@ -14,7 +14,7 @@ public class loop {
         int i = 1;
         while( i <= n){
             sum = sum+i;
-            System.out.print(sum +" " );
+            System.out.print(sum +"    " );
             i++;
 
          */
@@ -44,7 +44,7 @@ public class loop {
         int n = sc.nextInt();
 
         for(int i = 1 ; i <=10; i++){
-            System.out.println(n +" * "  +i   +" = " +n*i);
+            System.out.println(n +"  * "  +i   +" = " +n*i);
         }
 
     }
