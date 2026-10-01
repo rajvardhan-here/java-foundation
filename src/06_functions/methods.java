@@ -38,10 +38,12 @@ public class methods {
         return true;
     }
 
-    public static boolean isPrimerange(int n){
+    public static void isPrimerange(int n){
         for (int i = 2; i <= n ; i++){
-            if (isPrime(n));
+            if (isPrime(n));{
             System.out.println(i+ " ");
+        }
+        System.out.println();
         }
     }
 
