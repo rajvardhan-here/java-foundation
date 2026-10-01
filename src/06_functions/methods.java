@@ -22,12 +22,12 @@ public class methods {
         return a+b;
     }
 
-    public static void main(String args[]){
-
-        System.out.println(sum(22,1.3f));
+    public static double sum(double a , double b){
+        return a+b;
     }
 
+    public static void main(String args[]){
 
-
-
+        System.out.println(sum(22.12,1121));
+    }
 }
