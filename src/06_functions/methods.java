@@ -49,6 +49,6 @@ public class methods {
 
     public static void main(String args[]){
 
-        System.out.print(isPrimerange(11));
+        isPrimerange(11);
     }
 }
