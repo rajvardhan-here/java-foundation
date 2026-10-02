@@ -37,7 +37,7 @@ public class linearsearch {
 
     int largest = Integer.MAX_VALUE;
 
-    for (int i = 1){}
+    for (int i = 0 ; i <= number.length ; i++ ){}
 
 
 
