@@ -49,6 +49,7 @@ public class linearsearch {
     public static void main(String args[]){
         int numbers[] = {2,4,6,8,10,12,14,16};
 
-        System.out.println("enter the key you want to search");
+        System.out.println("largest number is " +largest(numbers));
+    }
 
 }
