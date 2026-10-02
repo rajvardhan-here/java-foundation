@@ -38,10 +38,11 @@ public class linearsearch {
         int largest = Integer.MAX_VALUE;
 
         for (int i = 0; i < numbers.length; i++) {
-         if(largest > i) {
-             return largest;
+         if(largest < numbers[i]) {
+             largest = numbers[i];
          }
         }
+        return largest;
     }
 
 
