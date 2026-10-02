@@ -33,12 +33,16 @@ public class linearsearch {
 
     //  largest in array now
 
-    public static int largest(int numbers[]){}
+    public static int largest(int numbers[]) {
 
-    int largest = Integer.MAX_VALUE;
+        int largest = Integer.MAX_VALUE;
 
-    for (int i = 0 ; i <= number.length ; i++ ){}
-
+        for (int i = 0; i < numbers.length; i++) {
+         if(largest > i) {
+             return largest;
+         }
+        }
+    }
 
 
     public static void main(String args[]){
