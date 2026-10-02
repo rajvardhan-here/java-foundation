@@ -12,7 +12,11 @@ public class linearsearch {
 
     public static void main(String args[]){
         int numbers[] = {2,4,6,8,10,12,14,16};
-        int key = 10;
+
+        System.out.println("enter the key you want to search");
+
+        Scanner sc = new Scanner(System.in);
+        int key = sc.nextInt();
 
         int index = linearsearch(numbers,key);
 
