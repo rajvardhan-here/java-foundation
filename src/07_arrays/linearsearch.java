@@ -1,13 +1,25 @@
 import java.util.*;
 
 public class linearsearch {
+    public static int linearsearch(int numbers[], int key){
+
+        for(int i = 0 ; i<= numbers.length ; i++){
+            if(numbers[] == key )
+            return 1;
+        }
+        return -1;
+    }
+    
     public static void main(String args[]){
         int numbers[] = {2,4,6,8,10,12,14,16};
         int key = 10;
 
-        int index = linearsearch(numbers,key)
-                System.out.println(index);
+        int index = linearsearch(numbers,key);
 
-        if 
+        if(index == -1){
+            System.out.println("kkey not found");
+        }else {
+            System.out.println("key found at index = " +index);
+        }
     }
 }
