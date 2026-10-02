@@ -35,12 +35,16 @@ public class linearsearch {
 
     public static int largest(int numbers[]) {
 
-        int largest = Integer.MAX_VALUE;
+        int largest = Integer.MIN_VALUE;
+        int smallest = Integer.MIN_VALUE;
 
         for (int i = 0; i < numbers.length; i++) {
          if(largest < numbers[i]) {
              largest = numbers[i];
          }
+        }
+        if(smallest > numbers[i]){
+            smallest = numbers[i];
         }
         return largest;
     }
