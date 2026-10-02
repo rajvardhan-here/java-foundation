@@ -14,5 +14,9 @@ public class array{
         System.out.println(" science = "  +marks[1]);
         System.out.println(" maths = "  +marks[2]);
 
+        marks[2] = 103;
+                System.out.println(" maths = "  +marks[2]);
+
+
     }
 }
