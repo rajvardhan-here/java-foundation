@@ -3,7 +3,7 @@ import java.util.*;
 public class linearsearch {
     public static int linearsearch(int numbers[], int key){
 
-        for(int i = 0 ; i<= numbers.length ; i++){
+        for(int i = 0 ; i< numbers.length ; i++){
             if(numbers[i] == key )
             return i;
         }
@@ -15,15 +15,18 @@ public class linearsearch {
 
         System.out.println("enter the key you want to search");
 
-        Scanner sc = new Scanner(System.in);
-        int key = sc.nextInt();
+        while (true) {
 
-        int index = linearsearch(numbers,key);
+            Scanner sc = new Scanner(System.in);
+            int key = sc.nextInt();
 
-        if(index == -1){
-            System.out.println("kkey not found");
-        }else {
-            System.out.println("key found at index = " +index);
+            int index = linearsearch(numbers, key);
+
+            if (index == -1) {
+                System.out.println("kkey not found");
+            } else {
+                System.out.println("key found at index = " + index);
+            }
         }
     }
 }
