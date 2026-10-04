@@ -2,24 +2,8 @@ import java.util.*;
 import java.util.concurrent.LinkedBlockingDeque;
 
 public  class practice11 {
-    public static int linearsearch(int number[] , int key){
-        for (int i=0; i < number.length; i++){
-            if( number[i] == key ){
-                return i;
-            }
-        }
-        return -1;
-    }
-    public static void main (String  args []){
-        int number[] =  { 2,4,6,8,10,14,16,18};
-        int key = 18;
+    public static int binarysearch(int number[] , int key){
+     int start = 0 , end = number.length;
 
-        int search = linearsearch(number,key);
-        if(search == -1){
-            System.out.println("key not found ");
-        }
-        else {
-            System.out.println("key found at index  = " +search);
-        }
-    }
+     for (int i = start )
 }
