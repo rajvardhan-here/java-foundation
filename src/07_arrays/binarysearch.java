@@ -64,7 +64,7 @@ public class binarysearch {
     }
 
     public static void main(String args[]) {
-        int num[] = {2, 4, 6, 8, 10, 12, 14};
+        int num[] = {2, 4, 6, 8, 10, 14};
 
         pairs(num);
     }
