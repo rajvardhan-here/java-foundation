@@ -19,3 +19,13 @@
         }
 
     }
+
+
+
+    //  THIS IS THE LAST DAY OF LECTURE 7  AND I HAD COMPLETED
+//    BINARY SEARCH
+//            LINEAR SEARCH
+//                    REVERSE AN ARRAY
+//    SUB ARRAY
+//            PAIRS IN ARRAY
+//    LARGEST IN ARRAY
