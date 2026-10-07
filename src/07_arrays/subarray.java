@@ -4,9 +4,9 @@
 
         public static void Subarray(int array[]){
             for (int i = 0 ; i < array.length ; i++){
+                int current = array.length;
                 for (int j = i ; j< array.length ; j++){
-                    for ( int k = i ; k<= j ; k++){
-                        System.out.print(array[k] +" ");
+                        System.out.print("(" + current +","  +array[j] +") ");
                     }
                     System.out.println();
                 }
