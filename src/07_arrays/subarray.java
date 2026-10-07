@@ -5,7 +5,7 @@
         public static void Subarray(int array[]){
             for (int i = 0 ; i < array.length ; i++){
                 int current = i;
-                for (int j = i ; j< array.length ; j++){
+                for (int j = i+1 ; j< array.length ; j++){
                         System.out.print("(" + current +","  +array[j] +") ");
                     }
                     System.out.println();
