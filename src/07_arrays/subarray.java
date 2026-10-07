@@ -2,16 +2,15 @@
 
     public class subarray{
 
-        public static int Subarray(int array[]){
+        public static void Subarray(int array[]){
             for (int i = 0 ; i < array.length ; i++){
                 for (int j = i ; j< array.length ; j++){
                     for ( int k = i ; k<= j ; k++){
-                        System.out.print(array[k]);
+                        System.out.print(array[k] +" ");
                     }
                     System.out.println();
                 }
             }
-            return 1;
         }
 
         public static void main(String args[]){
