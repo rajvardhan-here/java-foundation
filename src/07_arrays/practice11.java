@@ -7,8 +7,8 @@ public class practice11 {
             for (int j = i+1 ; j < array.length; j++){
                 System.out.print("(" +current +"," +array[j] +")");
             }
+            System.out.println();
         }
-        System.out.println();
     }
 
     public static void main(String args []){
