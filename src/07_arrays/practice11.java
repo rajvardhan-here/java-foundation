@@ -3,8 +3,8 @@ import java.util.*;
 public class practice11 {
     public static int linear(int array[] , int key){
         for (int i =  0 ; i <= array.length ; i++){
-            if(key == i) {
-                return key;
+            if(array[i] == key) {
+                return i;
                }
             }
         return-1;
