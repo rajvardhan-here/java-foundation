@@ -4,7 +4,7 @@ public class practice11 {
     public static void main(String args []){
         int array[] = {2,3,4,5,6,7,8};
 
-        int key= ;
+        int key=6 ;
 
 
         int index = linear(array,key);
