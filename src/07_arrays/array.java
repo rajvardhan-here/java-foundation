@@ -12,7 +12,7 @@ public class array{
 
         System.out.println(" physics = "  + marks[0]);
         System.out.println(" science = "  +marks[1]);
-        System.out.println(" maths = "  +marks[2]);
+        System.out.println(" maths = "  +marks[3]);
 
                 int percentage = (marks[0] + marks[1] + marks[2] )/3;
                 System.out.println(percentage);
