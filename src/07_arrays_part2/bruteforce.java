@@ -1,7 +1,7 @@
 import java.util.*;
 public class bruteforce{
 
-    public static void brute(int array[]){
+    public static void maxSubarraySum(int array[]){
 
         if(array[4] >  30){
             System.out.println("ok");
@@ -14,7 +14,9 @@ public class bruteforce{
     public static void main(String args[]){
         int array[] = {2,4,6,8,10};
 
-        brute(array);
+        int result = maxSubarraySum(array);
+
+        System.out.println("Maximum Subarray Sum: " + result);
     }
 
 }
