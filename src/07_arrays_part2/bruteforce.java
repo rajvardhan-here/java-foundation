@@ -3,12 +3,7 @@ public class bruteforce{
 
     public static void maxSubarraySum(int array[]){
 
-        if(array[4] >  30){
-            System.out.println("ok");
-        }
-        else{
-            System.out.println("not");
-        }
+
     }
 
     public static void main(String args[]){
