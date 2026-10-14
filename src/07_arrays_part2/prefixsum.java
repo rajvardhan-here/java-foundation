@@ -4,7 +4,7 @@ public class prefixsum {
         int ms = Integer.MIN_VALUE;
         int cs = 0;
 
-        for(int i = 0 ; i <= num.length; i++){
+        for(int i = 0 ; i < num.length; i++){
             cs = cs + num[i];
             if(cs < 0){
                 cs = 0;
@@ -15,7 +15,8 @@ public class prefixsum {
     }
 
     public static void main(String args[]){
-        int num[] = {-2,-3,-5,1,4,-2,-1,3};
+
+        int num[] = {-2,-3,-5,1,4,-2,-2,1,-11};
         kadnane(num);
     }
 }
