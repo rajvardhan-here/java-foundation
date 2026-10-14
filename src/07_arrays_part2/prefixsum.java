@@ -1,7 +1,12 @@
 import java.util.*;
 public class prefixsum {
     public static void kadnane(int num[]){
-        int cs =
+        int ms = Integer.MIN_VALUE;
+        int cs = 0;
+
+        for(int i = 0 ; i <= num.length; i++){
+            cs = 0; 
+        }
     }
 
     public static void main(String args[]){
