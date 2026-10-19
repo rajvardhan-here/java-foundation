@@ -20,7 +20,7 @@ public class prefixsum {
     }
 
     public static void main(String args[]) {
-        int num[] = {-2, -3, -5, 1, 4, -2, -2, 1};
+        int num[] = {-2, -3, -5, 1, 4, -2, -2};
         kadnane(num);
     }
 }
