@@ -26,7 +26,7 @@ public class bruteforce{
     }
 
     public static void main(String argsp[]){
-        int nums[] = {-2,3,1,-1,3};
+        int nums[] = {-2,3,1};
 
         int ans = maxSubArray(nums);
         System.out.println(ans);
