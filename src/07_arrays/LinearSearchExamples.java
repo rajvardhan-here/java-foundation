@@ -15,5 +15,8 @@ public class LinearSearchExamples {
                 + Arrays.toString(LinearSearch.findAllIndices(numbers, 5)));
         System.out.println("Search 8 in range [2, 5): "
                 + LinearSearch.findInRange(numbers, 8, 2, 5));
+        System.out.println("Contains 99: " + LinearSearch.contains(numbers, 99));
+        System.out.println("First even value index: "
+                + LinearSearch.findFirstMatching(numbers, value -> value % 2 == 0));
     }
 }
