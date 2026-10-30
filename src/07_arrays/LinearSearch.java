@@ -28,4 +28,14 @@ public class LinearSearch {
         return -1;
     }
 
+    /** Counts how many times target occurs. */
+    public static int countOccurrences(int[] array, int target) {
+        requireArray(array);
+        int count = 0;
+        for (int value : array) {
+            if (value == target) count++;
+        }
+        return count;
+    }
+
 }
