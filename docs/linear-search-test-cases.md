@@ -26,3 +26,14 @@ For a null array, the implementation throws IllegalArgumentException.
 | findInRange | [10, 20, 30, 20], target 20, range [2, 4) | 3 |
 | contains | [1, 3, 5], target 3 | true |
 | contains | [1, 3, 5], target 8 | false |
+
+## Boundary and validation checks
+
+| Scenario | Expected behavior |
+|---|---|
+| Empty array | Return -1 for findFirst |
+| Range [0, 0) | Return -1 |
+| Negative start index | Throw IndexOutOfBoundsException |
+| End beyond array length | Throw IndexOutOfBoundsException |
+| Start greater than end | Throw IndexOutOfBoundsException |
+| Null array | Throw IllegalArgumentException |
