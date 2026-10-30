@@ -47,3 +47,11 @@ A null array is rejected with `IllegalArgumentException`. Range searches reject 
 
 Use linear search for small or unsorted collections, one-off lookups, or predicate-based checks. If the array is sorted and many lookups are needed, binary search is usually a better fit.
 
+## Practice prompts
+
+1. Find the first occurrence of a number.
+2. Find the last occurrence when duplicates exist.
+3. Count all occurrences without using a second array.
+4. Return all indices for a repeated target.
+5. Search only between two supplied indices.
+6. Find the first even number using a predicate.
