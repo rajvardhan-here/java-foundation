@@ -50,4 +50,18 @@ public class LinearSearch {
         return indices;
     }
 
+    /** Searches only within [startInclusive, endExclusive). */
+    public static int findInRange(int[] array, int target,
+                                  int startInclusive, int endExclusive) {
+        requireArray(array);
+        if (startInclusive < 0 || endExclusive > array.length
+                || startInclusive > endExclusive) {
+            throw new IndexOutOfBoundsException("Invalid search range");
+        }
+        for (int i = startInclusive; i < endExclusive; i++) {
+            if (array[i] == target) return i;
+        }
+        return -1;
+    }
+
 }
