@@ -10,3 +10,7 @@
 | Duplicate values | [2, 5, 5, 8] | 5 | 1 |
 
 For a null array, the implementation throws IllegalArgumentException.
+
+| Single element match | [6] | 6 | 0 |
+| Single element miss | [6] | 2 | -1 |
+| Negative values | [-8, -3, 0, 4] | -3 | 1 |
