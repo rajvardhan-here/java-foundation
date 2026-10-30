@@ -43,3 +43,7 @@ It works on sorted and unsorted arrays. Unlike binary search, it does not requir
 
 A null array is rejected with `IllegalArgumentException`. Range searches reject invalid boundaries with `IndexOutOfBoundsException`. An empty array is valid and produces no match.
 
+## Choosing the right search
+
+Use linear search for small or unsorted collections, one-off lookups, or predicate-based checks. If the array is sorted and many lookups are needed, binary search is usually a better fit.
+
