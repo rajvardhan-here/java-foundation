@@ -37,3 +37,12 @@ For a null array, the implementation throws IllegalArgumentException.
 | End beyond array length | Throw IndexOutOfBoundsException |
 | Start greater than end | Throw IndexOutOfBoundsException |
 | Null array | Throw IllegalArgumentException |
+
+## Predicate checks
+
+| Input | Predicate | Expected index |
+|---|---|---:|
+| [3, 7, 8, 9] | first even value | 2 |
+| [1, 3, 5] | first even value | -1 |
+| [] | any predicate | -1 |
+| [4, 6] | null predicate | IllegalArgumentException |
