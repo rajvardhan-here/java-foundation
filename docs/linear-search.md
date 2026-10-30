@@ -31,3 +31,11 @@ The array does not need to be sorted.
 
 It works on sorted and unsorted arrays. Unlike binary search, it does not require sorting or random-access ordering assumptions beyond normal array indexing.
 
+## Variants in the Java implementation
+
+- `findFirst`: first matching index.
+- `findLast`: last matching index, scanning from right to left.
+- `countOccurrences`: total number of matches.
+- `findAllIndices`: all matching positions.
+- `findInRange`: search a half-open range `[startInclusive, endExclusive)`.
+
