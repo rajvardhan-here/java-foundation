@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-/** Small runnable examples for LinearSearch. */
+/** Runnable examples for the LinearSearch utility methods. */
 public class LinearSearchExamples {
     public static void main(String[] args) {
         int[] numbers = {12, 5, 8, 5, 20, 3};
@@ -9,5 +9,6 @@ public class LinearSearchExamples {
         int index = LinearSearch.findFirst(numbers, target);
         System.out.println("Array: " + Arrays.toString(numbers));
         System.out.println("First index of " + target + ": " + index);
+        System.out.println("Last index of 5: " + LinearSearch.findLast(numbers, 5));
     }
 }
