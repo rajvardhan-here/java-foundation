@@ -10,5 +10,6 @@ public class LinearSearchExamples {
         System.out.println("Array: " + Arrays.toString(numbers));
         System.out.println("First index of " + target + ": " + index);
         System.out.println("Last index of 5: " + LinearSearch.findLast(numbers, 5));
+        System.out.println("Occurrences of 5: " + LinearSearch.countOccurrences(numbers, 5));
     }
 }
