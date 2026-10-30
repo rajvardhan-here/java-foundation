@@ -39,3 +39,7 @@ It works on sorted and unsorted arrays. Unlike binary search, it does not requir
 - `findAllIndices`: all matching positions.
 - `findInRange`: search a half-open range `[startInclusive, endExclusive)`.
 
+## Input behavior
+
+A null array is rejected with `IllegalArgumentException`. Range searches reject invalid boundaries with `IndexOutOfBoundsException`. An empty array is valid and produces no match.
+
