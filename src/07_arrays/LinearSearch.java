@@ -75,4 +75,20 @@ public class LinearSearch {
         }
     }
 
+    /**
+     * Returns the index of the first element matching a condition.
+     * The predicate is evaluated from left to right.
+     */
+    public static int findFirstMatching(int[] array,
+                                        java.util.function.IntPredicate predicate) {
+        requireArray(array);
+        if (predicate == null) {
+            throw new IllegalArgumentException("Predicate must not be null");
+        }
+        for (int i = 0; i < array.length; i++) {
+            if (predicate.test(array[i])) return i;
+        }
+        return -1;
+    }
+
 }
