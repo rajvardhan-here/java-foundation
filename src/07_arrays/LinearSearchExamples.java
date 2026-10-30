@@ -13,5 +13,7 @@ public class LinearSearchExamples {
         System.out.println("Occurrences of 5: " + LinearSearch.countOccurrences(numbers, 5));
         System.out.println("All indices of 5: "
                 + Arrays.toString(LinearSearch.findAllIndices(numbers, 5)));
+        System.out.println("Search 8 in range [2, 5): "
+                + LinearSearch.findInRange(numbers, 8, 2, 5));
     }
 }
