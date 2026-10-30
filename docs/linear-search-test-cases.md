@@ -14,3 +14,11 @@ For a null array, the implementation throws IllegalArgumentException.
 | Single element match | [6] | 6 | 0 |
 | Single element miss | [6] | 2 | -1 |
 | Negative values | [-8, -3, 0, 4] | -3 | 1 |
+
+## Additional variant checks
+
+| Method | Input | Expected |
+|---|---|---|
+| findLast | [2, 5, 5, 8], target 5 | 2 |
+| countOccurrences | [2, 5, 5, 8], target 5 | 2 |
+| findAllIndices | [2, 5, 5, 8], target 5 | [1, 2] |
