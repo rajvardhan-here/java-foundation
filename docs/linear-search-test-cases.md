@@ -22,3 +22,7 @@ For a null array, the implementation throws IllegalArgumentException.
 | findLast | [2, 5, 5, 8], target 5 | 2 |
 | countOccurrences | [2, 5, 5, 8], target 5 | 2 |
 | findAllIndices | [2, 5, 5, 8], target 5 | [1, 2] |
+
+| findInRange | [10, 20, 30, 20], target 20, range [2, 4) | 3 |
+| contains | [1, 3, 5], target 3 | true |
+| contains | [1, 3, 5], target 8 | false |
