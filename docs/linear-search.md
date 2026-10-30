@@ -26,3 +26,8 @@ java -cp src/07_arrays LinearSearchExamples
 ```
 
 The array does not need to be sorted.
+
+## Why use linear search?
+
+It works on sorted and unsorted arrays. Unlike binary search, it does not require sorting or random-access ordering assumptions beyond normal array indexing.
+
