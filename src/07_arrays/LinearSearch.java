@@ -38,4 +38,16 @@ public class LinearSearch {
         return count;
     }
 
+    /** Returns every matching index in ascending order. */
+    public static int[] findAllIndices(int[] array, int target) {
+        requireArray(array);
+        int count = countOccurrences(array, target);
+        int[] indices = new int[count];
+        int next = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == target) indices[next++] = i;
+        }
+        return indices;
+    }
+
 }
