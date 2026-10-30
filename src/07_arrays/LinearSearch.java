@@ -64,4 +64,15 @@ public class LinearSearch {
         return -1;
     }
 
+    /** Returns true when target is present. */
+    public static boolean contains(int[] array, int target) {
+        return findFirst(array, target) != -1;
+    }
+
+    private static void requireArray(int[] array) {
+        if (array == null) {
+            throw new IllegalArgumentException("Array must not be null");
+        }
+    }
+
 }
