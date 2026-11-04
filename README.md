@@ -1,155 +1,79 @@
-<div align="center">
+# Java Foundation
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=1000&color=F89820&center=true&vCenter=true&width=600&lines=☕+java-foundation;Learning+Java+%2B+DSA;One+commit+at+a+time." alt="Typing SVG" />
-
-<br/>
+A hands-on repository documenting my journey through **Core Java and Data Structures & Algorithms**. Each topic contains practice code, examples, and notes for revision.
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
+![DSA](https://img.shields.io/badge/DSA-Practice-blue?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/Learning-In_Public-181717?style=for-the-badge&logo=github)
 
-<br/>
+## Repository structure
 
-> *"The expert in anything was once a beginner."*
-
-</div>
-
----
-
-## 🚀 About This Repo
-
-This is my **Java + DSA learning journey** — documented publicly, built consistently.
-
-No bulk uploads. No copy-paste. Every file I write, I understand.  
-Every commit represents a real study session.  
-**From variables → graphs. One step at a time.**
-
----
-
-## 📚 Where I Learn From
-
-<table>
-<tr>
-<td align="center">🎥</td>
-<td><strong><a href="https://www.youtube.com/@KunalKushwaha">Kunal Kushwaha</a></strong> — DSA + Java</td>
-</tr>
-<tr>
-<td align="center">🎥</td>
-<td><strong><a href="https://www.youtube.com/@CodeWithHarry">CodeWithHarry</a></strong> — Java Tutorials</td>
-</tr>
-<tr>
-<td align="center">🧠</td>
-<td><strong><a href="https://leetcode.com">LeetCode</a></strong> — Practice Problems</td>
-</tr>
-<tr>
-<td align="center">📖</td>
-<td><strong><a href="https://www.geeksforgeeks.org">GeeksForGeeks</a></strong> — Concepts & Reference</td>
-</tr>
-<tr>
-<td align="center">💬</td>
-<td><strong><a href="https://stackoverflow.com">Stack Overflow</a></strong> — When I'm stuck at 2AM</td>
-</tr>
-</table>
-
----
-
-## 🗂️ Repo Structure
-
-```
-📦 java-foundation
- └── 📂 src
-      ├── 📁 01_variables_datatypes
-      ├── 📁 02_operators
-      ├── 📁 03_conditionals
-      ├── 📁 04_loops
-      ├── 📁 05_patterns
-      ├── 📁 06_functions
-      ├── 📁 07_arrays
-      ├── 📁 08_sorting
-      ├── 📁 09_2d_arrays
-      ├── 📁 10_strings
-      ├── 📁 11_bit_manipulation
-      ├── 📁 12_oops
-      ├── 📁 13_recursion
-      ├── 📁 14_divide_conquer
-      ├── 📁 15_backtracking
-      ├── 📁 16_arraylists
-      ├── 📁 17_linked_lists
-      ├── 📁 18_stacks
-      ├── 📁 19_queues
-      ├── 📁 20_greedy
-      ├── 📁 21_binary_trees
-      ├── 📁 22_bst
-      ├── 📁 23_heaps
-      ├── 📁 24_hashing
-      ├── 📁 25_tries
-      └── 📁 26_graphs
+```text
+java-foundation/
+├── docs/
+│   ├── arrays-part-2.md
+│   ├── arrays-part-2-practice.md
+│   ├── binary-search.md
+│   ├── binary-search-test-cases.md
+│   ├── linear-search.md
+│   └── linear-search-test-cases.md
+└── src/
+    ├── 01_variables_datatypes/
+    ├── 02_operators/
+    ├── 03_conditionals/
+    ├── 04_loops/
+    ├── 05_patterns/
+    ├── 06_functions/
+    ├── 07_arrays/
+    ├── 07_arrays_part2/
+    └── Practice/
 ```
 
----
+## Topics practised
 
-## 📊 Progress
+| Topic | Coverage |
+|---|---|
+| Variables & data types | Declarations, primitive types, input/output |
+| Operators | Arithmetic, relational, and logical operations |
+| Conditionals | `if`, `else`, and decision-making exercises |
+| Loops | `for`, `while`, and `do-while` |
+| Patterns | Nested-loop pattern exercises |
+| Functions | Methods, parameters, and number problems |
+| Arrays | Traversal, searching, reversing, and subarrays |
+| Arrays Part 2 | Brute force, prefix sums, and Kadane's algorithm |
 
-| # | Topic | Status |
-|:---:|---|:---:|
-| 01 | Variables & Data Types | ✅ |
-| 02 | Operators | ✅ |
-| 03 | Conditional Statements | ✅ |
-| 04 | Loops | ✅ |
-| 05 | Patterns | ✅ |
-| 06 | Functions & Methods | ✅ |
-| 07 | Arrays | ✅ |
-| 08 | Sorting Algorithms | ✅ |
-| 09 | 2D Arrays | ⏳ |
-| 10 | Strings | ⏳ |
-| 11 | Bit Manipulation | ⏳ |
-| 12 | OOPs | ⏳ |
-| 13 | Recursion | ⏳ |
-| 14 | Divide & Conquer | ⏳ |
-| 15 | Backtracking | ⏳ |
-| 16 | ArrayLists | ⏳ |
-| 17 | Linked Lists | ⏳ |
-| 18 | Stacks | ⏳ |
-| 19 | Queues | ⏳ |
-| 20 | Greedy Algorithms | ⏳ |
-| 21 | Binary Trees | ⏳ |
-| 22 | Binary Search Trees | ⏳ |
-| 23 | Heaps | ⏳ |
-| 24 | Hashing | ⏳ |
-| 25 | Tries | ⏳ |
-| 26 | Graphs | ⏳ |
+## Run the Arrays Part 2 examples
 
-`✅ Done` · `🔄 In Progress` · `⏳ Pending`
+Compile from the repository root:
 
----
-
-## ⚡ My Commit Rules
-
-```java
-while (learning) {
-    study(topic);
-    writeCode();
-    commit("meaningful message");
-    push();
-    repeat();
-}
+```bash
+javac src/07_arrays_part2/*.java
+java -cp src/07_arrays_part2 SubarrayExamples
 ```
 
+Run the lightweight regression checks with assertions enabled:
+
+```bash
+java -ea -cp src/07_arrays_part2 SubarrayAlgorithmTests
+```
+
+See the [Arrays Part 2 notes](docs/arrays-part-2.md) and [practice set](docs/arrays-part-2-practice.md).
+
+## Learning workflow
+
+1. Understand the concept before memorising the code.
+2. Write a basic solution and test it with small inputs.
+3. Check edge cases and analyse time and space complexity.
+4. Improve the approach when a better solution exists.
+5. Keep notes and examples close to the topic they explain.
+
+## Tools
+
+- Java
+- IntelliJ IDEA
+- Git and GitHub
+- LeetCode for problem practice
+
 ---
 
-<div align="center">
-
-### 🙋 Rajvardhan Singh
-
-*Full Stack Developer · Java Learner · Building in public*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rajvardhann)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajvardhan-here)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
-
-<br/>
-
-*Started: June 2026 · Goal: Java → DSA → Interviews 🎯*
-
-</div>
+**Maintained by Rajvardhan Singh** · Learning Java and DSA one concept at a time.
