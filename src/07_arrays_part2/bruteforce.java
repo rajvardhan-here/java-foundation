@@ -1,34 +1,25 @@
-import java.util.*;
-
-public class bruteforce{
+/**
+ * Brute-force solution for the maximum subarray sum problem.
+ * Time complexity: O(n^3); extra space: O(1).
+ */
+public class bruteforce {
     public static int maxSubArray(int[] nums) {
+        if (nums == null) throw new IllegalArgumentException("Input array must not be null");
+        if (nums.length == 0) throw new IllegalArgumentException("Input array must not be empty");
 
-        int current = 0;
         int maxSum = Integer.MIN_VALUE;
-
-        for (int i = 0; i < nums.length; i++) {
-
-            for (int j = 0 ; j < nums.length ; j++) {
-
-                current = 0;
-
-                for (int `k = i; k <= j; k++) {
-                    current += nums[k];
-                }
-
-                if (current > maxSum) {
-                    maxSum = current;
-                }
+        for (int start = 0; start < nums.length; start++) {
+            for (int end = start; end < nums.length; end++) {
+                int currentSum = 0;
+                for (int index = start; index <= end; index++) currentSum += nums[index];
+                maxSum = Math.max(maxSum, currentSum);
             }
         }
-
         return maxSum;
     }
 
-    public static void main(String argsp[]){
-        int nums[] = {-2,3,1};
-
-        int ans = maxSubArray(nums);
-        System.out.println(ans);
+    public static void main(String[] args) {
+        int[] nums = {-2, 3, 1};
+        System.out.println("Maximum subarray sum: " + maxSubArray(nums));
     }
 }
