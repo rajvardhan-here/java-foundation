@@ -1,35 +1,41 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class primenumber {
 
-
-    // PRIME NUMBER IN OPTIMIZED PATTER AND FIXED
-    public static boolean isPrime(int n){
-        if (n ==2){                                    // CORNER CODE -  BASE CASE HIT H YE
-            return true;                               // agar n ki value 2 h toh vo prime hi h
+    public static boolean isPrime(int n) {
+        if (n < 2) {
+            return false;
         }
-        for (int i = 2; i<= Math.sqrt(n); i++){        // check karo number squareroot n se chota  ya equal if yes then
-            if(n % i ==0){                             // n or i ko divide krne pr 0 aagya toh vo prime nhi h
-                return false;                          // false dede vrna
+        if (n == 2) {
+            return true;
+        }
+        if (n % 2 == 0) {
+            return false;
+        }
+
+        // Checking odd divisors only keeps the loop efficient.
+        for (int divisor = 3; divisor <= n / divisor; divisor += 2) {
+            if (n % divisor == 0) {
+                return false;
             }
         }
-        return true;                                   // true dede
+        return true;
     }
 
-
-    //  PRINT ALL THE PRIME NUMBER IN RANGE
-    public static void primeinrange(int n){
-        for (int i = 2 ; i<= n; i++){
-            if(isPrime(i)){
-                System.out.print(i+ " ");
+    public static void primeinrange(int n) {
+        for (int number = 2; number <= n; number++) {
+            if (isPrime(number)) {
+                System.out.print(number + " ");
             }
-        }System.out.println( );
+        }
+        System.out.println();
     }
 
-
-    public static void main(String args[]){             //  MAIN FUNCTION
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("ENTER YOUR number  : ");
+        System.out.print("Enter your number: ");
         int n = sc.nextInt();
         primeinrange(n);
+        sc.close();
     }
 }
