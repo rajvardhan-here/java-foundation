@@ -1,22 +1,26 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class array{
-
-    public static void main(String args[]){
-        int marks [] = new int[99];
+public class array {
+    public static void main(String[] args) {
+        int[] marks = new int[3];
         Scanner sc = new Scanner(System.in);
 
-        marks[0] = sc.nextInt();
-        marks[1] = sc.nextInt();
-        marks[2] = sc.nextInt();
+        String[] subjects = {"Physics", "Science", "Maths"};
+        int total = 0;
 
-        System.out.println(" physics = "  + marks[0]);
-        System.out.println(" science = "  +marks[1]);
-        System.out.println(" maths = "  +marks[3]);
+        for (int i = 0; i < marks.length; i++) {
+            System.out.print("Enter " + subjects[i] + " marks: ");
+            marks[i] = sc.nextInt();
+            total += marks[i];
+        }
 
-                int percentage = (marks[0] + marks[1] + marks[2] )/3;
-                System.out.println(percentage);
-                System.out.println(marks.length);
+        for (int i = 0; i < marks.length; i++) {
+            System.out.println(subjects[i] + " = " + marks[i]);
+        }
 
+        double percentage = total / (double) marks.length;
+        System.out.printf("Average marks = %.2f%n", percentage);
+        System.out.println("Number of subjects = " + marks.length);
+        sc.close();
     }
 }
