@@ -1,7 +1,48 @@
 import java.util.Arrays;
+
 public class QuickSort {
- public static void sort(int[] a){quickSort(a,0,a.length-1);}
- private static void quickSort(int[] a,int lo,int hi){if(lo>=hi)return;int p=partition(a,lo,hi);quickSort(a,lo,p-1);quickSort(a,p+1,hi);}
- private static int partition(int[] a,int lo,int hi){int pivot=a[hi],b=lo;for(int i=lo;i<hi;i++)if(a[i]<=pivot){int t=a[i];a[i]=a[b];a[b]=t;b++;}int t=a[b];a[b]=a[hi];a[hi]=t;return b;}
- public static void main(String[] args){int[] a={10,7,8,9,1,5};sort(a);System.out.println(Arrays.toString(a));}
+
+    public static void sort(int[] values) {
+        if (values == null || values.length < 2) {
+            return;
+        }
+        quickSort(values, 0, values.length - 1);
+    }
+
+    private static void quickSort(int[] values, int low, int high) {
+        if (low >= high) {
+            return;
+        }
+
+        int pivotIndex = partition(values, low, high);
+        quickSort(values, low, pivotIndex - 1);
+        quickSort(values, pivotIndex + 1, high);
+    }
+
+    private static int partition(int[] values, int low, int high) {
+        int pivot = values[high];
+        int smallerIndex = low;
+
+        for (int current = low; current < high; current++) {
+            if (values[current] <= pivot) {
+                swap(values, current, smallerIndex);
+                smallerIndex++;
+            }
+        }
+
+        swap(values, smallerIndex, high);
+        return smallerIndex;
+    }
+
+    private static void swap(int[] values, int first, int second) {
+        int temp = values[first];
+        values[first] = values[second];
+        values[second] = temp;
+    }
+
+    public static void main(String[] args) {
+        int[] values = {10, 7, 8, 9, 1, 5};
+        sort(values);
+        System.out.println(Arrays.toString(values));
+    }
 }
