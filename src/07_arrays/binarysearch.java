@@ -1,23 +1,21 @@
-import java.util.*;
-
 public class binarysearch {
-    public static void Pairs(int number[]){
 
-        int tp =0;
-        for (int i = 0 ; i< number.length ;i++){
-            int current = number[i];
-            for(int j= i+1 ; j< number.length ; j++){
-                System.out.print("(" +current +"," +number[j] +")");
-                tp++;
+    // Prints every pair of elements whose first index is before the second.
+    public static void printPairs(int[] numbers) {
+        int totalPairs = 0;
+
+        for (int i = 0; i < numbers.length; i++) {
+            for (int j = i + 1; j < numbers.length; j++) {
+                System.out.println("(" + numbers[i] + ", " + numbers[j] + ")");
+                totalPairs++;
             }
-            System.out.println();
         }
-        System.out.println(tp);
+
+        System.out.println("Total pairs: " + totalPairs);
     }
 
-    public static void main(String args[]){
-        int number[] = {2,4,6,8,10,231,12,12,31,231,321};
-
-        Pairs(number);
+    public static void main(String[] args) {
+        int[] numbers = {2, 4, 6, 8, 10, 12};
+        printPairs(numbers);
     }
 }
