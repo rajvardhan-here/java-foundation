@@ -27,6 +27,6 @@ public class EdmondsKarpMaxFlow {
     }
     public static void main(String[] args) {
         int[][] c = {{0,3,2,0,0,0},{0,0,0,3,0,0},{0,0,0,1,2,0},{0,0,0,0,2,2},{0,0,0,0,0,3},{0,0,0,0,0,0}};
-        System.out.println(maxFlow(c, 0, 5)); // 4
+        System.out.println(maxFlow(c, 0, 5)); // 5
     }
 }
